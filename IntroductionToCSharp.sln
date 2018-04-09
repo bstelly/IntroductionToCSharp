@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vector2", "Vector2\Vector2.csproj", "{F066630C-03B7-4CF5-B53E-56D65D5B1DC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice-Csharp", "Practice-Csharp\Practice-Csharp.csproj", "{98CD1828-A6E0-48BA-8C1D-B71946386346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Containers", "1.Containers\1.Containers.csproj", "{86AA2640-17FC-43DD-9E8A-96C069B5C4FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F066630C-03B7-4CF5-B53E-56D65D5B1DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F066630C-03B7-4CF5-B53E-56D65D5B1DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F066630C-03B7-4CF5-B53E-56D65D5B1DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CD1828-A6E0-48BA-8C1D-B71946386346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CD1828-A6E0-48BA-8C1D-B71946386346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CD1828-A6E0-48BA-8C1D-B71946386346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CD1828-A6E0-48BA-8C1D-B71946386346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86AA2640-17FC-43DD-9E8A-96C069B5C4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86AA2640-17FC-43DD-9E8A-96C069B5C4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86AA2640-17FC-43DD-9E8A-96C069B5C4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86AA2640-17FC-43DD-9E8A-96C069B5C4FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
