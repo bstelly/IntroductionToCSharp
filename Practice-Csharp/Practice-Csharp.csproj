@@ -7,8 +7,8 @@
     <ProjectGuid>{98CD1828-A6E0-48BA-8C1D-B71946386346}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Practiec_Csharp</RootNamespace>
-    <AssemblyName>Practiec_Csharp</AssemblyName>
+    <RootNamespace>IntroToCsharp</RootNamespace>
+    <AssemblyName>Practice-Csharp</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

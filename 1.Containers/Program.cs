@@ -39,7 +39,7 @@ namespace _1.Containers
                 Description = "Likelyhood of someone affecting your ability to participate"
             };
 
-            Stat AttackCooldown = new Stat()
+            Stat attackCooldown = new Stat()
             {
                 Name = "Attack cooldown",
                 Value = 10,
@@ -50,7 +50,7 @@ namespace _1.Containers
             stats.Add("speed", speed);
             stats.Add("attack power", attackPower);
             stats.Add("charisma", charisma);
-            stats.Add("attack cooldown", AttackCooldown);
+            stats.Add("attack cooldown", attackCooldown);
         }
     }
 }
