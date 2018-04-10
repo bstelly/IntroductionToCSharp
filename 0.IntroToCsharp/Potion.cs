@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Practice_Csharp
+namespace _0.IntroToCsharp
 {
     public abstract class Potion
     {

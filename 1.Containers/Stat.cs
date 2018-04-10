@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace _1.Containers
 {
-    class Stat
+    public class Stat
     {
-        public string Name;
-        public int Value;
-        public string Description;
+        public string Name { get; set; }
+        public int Value { get; set; }
+        public string Description { get; set; }
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 }

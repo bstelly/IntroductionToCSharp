@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Win32;
 
-namespace Practice_Csharp
+namespace _0.IntroToCsharp
 {
     public class BusterSword : Weapon
     {
