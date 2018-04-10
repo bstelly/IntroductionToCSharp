@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Practiec-Csharp")]
+[assembly: AssemblyTitle("0.IntroToCsharp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("The Academy Of Interactive Entertainment")]
-[assembly: AssemblyProduct("Practiec-Csharp")]
+[assembly: AssemblyProduct("0.IntroToCsharp")]
 [assembly: AssemblyCopyright("Copyright © The Academy Of Interactive Entertainment 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("98cd1828-a6e0-48ba-8c1d-b71946386346")]
+[assembly: Guid("ed6e555f-f00b-415e-944b-de512b3f10c9")]
 
 // Version information for an assembly consists of the following four values:
 //

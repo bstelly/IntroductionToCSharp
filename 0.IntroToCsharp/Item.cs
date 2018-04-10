@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Practice_Csharp
 {
-    class Program
+    public abstract class Item
     {
-        static void Main(string[] args)
-        {
-        }
+        private string Name;
+        private int Id;
     }
 }

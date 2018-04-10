@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practice_Csharp
 {
-    public  abstract class Potion
+    public abstract class Potion
     {
         public int Power;
 

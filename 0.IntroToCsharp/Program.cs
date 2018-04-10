@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Practice_Csharp
+namespace _0.IntroToCsharp
 {
-    public abstract  class Item
+    class Program
     {
-        private string Name;
-        private int Id;
+        static void Main(string[] args)
+        {
+        }
     }
 }

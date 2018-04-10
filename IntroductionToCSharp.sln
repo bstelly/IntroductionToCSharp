@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice-Csharp", "Practice
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Containers", "1.Containers\1.Containers.csproj", "{86AA2640-17FC-43DD-9E8A-96C069B5C4FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.IntroToCsharp", "0.IntroToCsharp\0.IntroToCsharp.csproj", "{ED6E555F-F00B-415E-944B-DE512B3F10C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{86AA2640-17FC-43DD-9E8A-96C069B5C4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86AA2640-17FC-43DD-9E8A-96C069B5C4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86AA2640-17FC-43DD-9E8A-96C069B5C4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED6E555F-F00B-415E-944B-DE512B3F10C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED6E555F-F00B-415E-944B-DE512B3F10C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED6E555F-F00B-415E-944B-DE512B3F10C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED6E555F-F00B-415E-944B-DE512B3F10C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
