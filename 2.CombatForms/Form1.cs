@@ -76,7 +76,6 @@ namespace _2.CombatForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "";
             Console.WriteLine("Button Clicked");
             foreach (var variable in character.SavingThrows)
             {
