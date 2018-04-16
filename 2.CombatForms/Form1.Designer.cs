@@ -34,6 +34,7 @@ namespace _2.CombatForms
             this.statDisplay = new System.Windows.Forms.TextBox();
             this.createdChars = new System.Windows.Forms.ComboBox();
             this.inputName = new System.Windows.Forms.TextBox();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // createChar
@@ -71,11 +72,19 @@ namespace _2.CombatForms
             this.inputName.Size = new System.Drawing.Size(164, 20);
             this.inputName.TabIndex = 3;
             // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(12, 358);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(214, 23);
+            this.progressBar1.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(564, 393);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.inputName);
             this.Controls.Add(this.createdChars);
             this.Controls.Add(this.statDisplay);
@@ -96,6 +105,7 @@ namespace _2.CombatForms
         private List<Character> characters;
         private System.Windows.Forms.ComboBox createdChars;
         private System.Windows.Forms.TextBox inputName;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 
