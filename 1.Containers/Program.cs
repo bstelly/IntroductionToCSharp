@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,47 +13,12 @@ namespace _1.Containers
         static void Main(string[] args)
         {
             Dictionary<string, Stat> SavingThrows = new Dictionary<string, Stat>();
-            Stat strength = new Stat()
-            {
-                Name = "Strength",
-                Value = 3,
-                Description = "Determines which weapons a character can use"
-            };
-
-            Stat dexterity = new Stat()
-            {
-                Name = "Dexterity",
-                Value = 4,
-                Description = " "
-            };
-
-            Stat constitution = new Stat()
-            {
-                Name = "Constitution",
-                Value = 5,
-                Description = " "
-            };
-
-            Stat intelligence = new Stat()
-            {
-                Name = "Intelligence",
-                Value = 6,
-                Description = " "
-            };
-
-            Stat wisdom = new Stat()
-            {
-                Name = "Wisdom",
-                Value = 5,
-                Description = " "
-            };
-
-            Stat charisma = new Stat()
-            {
-                Name = "Charisma",
-                Value = 4,
-                Description = " "
-            };
+            Stat strength = new Stat("strength", 3, "Determines which weapons a character can use");
+            Stat dexterity = new Stat("Dexterity", 4, "A measure of a character's attack, movement speed, and accuracy.");
+            Stat constitution = new Stat("Constitution", 5, "A measure of how sturdy a character is");
+            Stat intelligence = new Stat("Intelligence", 6, "A measure of a character's problem-solving ability.");
+            Stat wisdom = new Stat("Wisdom", 5, "A measure of a character's common sense and/or spirituality.");
+            Stat charisma = new Stat("Charisma", 4, "A measure of a characters social skills");
 
             #region MyRegion
             //Stat health = new Stat()
@@ -102,6 +68,11 @@ namespace _1.Containers
             SavingThrows.Add("Intelligence", intelligence);
             SavingThrows.Add("Wisdom", wisdom);
             SavingThrows.Add("Charisma", charisma);
+
+            int x = 100;
+            Stat newStat = (Stat) x;
+            string y = "Health";
+            Stat newerStat = (Stat) y;
         }
     }
 }

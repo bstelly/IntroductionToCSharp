@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
@@ -22,75 +23,37 @@ namespace _2.CombatForms
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            character = new Character();
-            Stat strength = new Stat()
-            {
-                Name = "Strength",
-                Value = 3,
-                Description = "Determines which weapons a character can use."
-            };
-
-            Stat dexterity = new Stat()
-            {
-                Name = "Dexterity",
-                Value = 4,
-                Description = "A measure of a character's attack, movement speed, and accuracy."
-            };
-
-            Stat constitution = new Stat()
-            {
-                Name = "Constitution",
-                Value = 5,
-                Description = "A measure of how sturdy a character is."
-            };
-
-            Stat intelligence = new Stat()
-            {
-                Name = "Intelligence",
-                Value = 6,
-                Description = "A measure of a character's problem-solving ability."
-            };
-
-            Stat wisdom = new Stat()
-            {
-                Name = "Wisdom",
-                Value = 5,
-                Description = "A measure of a character's common sense and/or spirituality."
-            };
-
-            Stat charisma = new Stat()
-            {
-                Name = "Charisma",
-                Value = 4,
-                Description = "A measure of a character's social skills."
-            };
-            character.SavingThrows.Add("Strength", strength);
-            character.SavingThrows.Add("Dexterity", dexterity);
-            character.SavingThrows.Add("Constitution", constitution);
-            character.SavingThrows.Add("Intelligence", intelligence);
-            character.SavingThrows.Add("Wisdom", wisdom);
-            character.SavingThrows.Add("Charisma", charisma);
-
-            textBox1.ReadOnly = true;
+            characters = new List<Character>();
+            statDisplay.ReadOnly = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("Button Clicked");
-            foreach (var variable in character.SavingThrows)
+            if (inputName.Text != null || inputName.Text != "")
             {
-                textBox1.Text += "Name = ";
-                textBox1.Text += variable.Value.Name;
-                textBox1.AppendText(Environment.NewLine);
-                textBox1.Text += "Value = ";
-                textBox1.Text += variable.Value.Value;
-                textBox1.AppendText(Environment.NewLine);
-                textBox1.Text += "Description = ";
-                textBox1.Text += variable.Value.Description;
-                textBox1.AppendText(Environment.NewLine);
-                textBox1.AppendText(Environment.NewLine);
-
-
+                Random rand = new Random();
+                Dictionary<string, Stat> SavingThrows = new Dictionary<string, Stat>();
+                SavingThrows.Add("Strength", new Stat("strength", rand.Next(1, 11),
+                    "Determines which weapons a character can use"));
+                SavingThrows.Add("Dexterity", new Stat("Dexterity", rand.Next(1, 11),
+                    "A measure of a character's attack, movement speed, and accuracy."));
+                SavingThrows.Add("Constitution", new Stat("Constitution", rand.Next(1, 11),
+                    "A measure of how sturdy a character is"));
+                SavingThrows.Add("Intelligence", new Stat("Intelligence", rand.Next(1, 11),
+                    "A measure of a character's problem-solving ability."));
+                SavingThrows.Add("Wisdom", new Stat("Wisdom", rand.Next(1, 11),
+                    "A measure of a character's common sense and/or spirituality."));
+                SavingThrows.Add("Charisma", new Stat("Charisma", rand.Next(1, 11),
+                    "A measure of a characters social skills"));
+                Character newChar = new Character()
+                {
+                    CharacterName = inputName.Text,
+                    ExperiencePoints = 1,
+                    Level = 1,
+                    SavingThrows = SavingThrows
+                };
+                characters.Add(newChar);
+                createdChars.Items.Add(newChar.CharacterName);
             }
         }
 
@@ -98,9 +61,30 @@ namespace _2.CombatForms
         {
         }
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            statDisplay.Text = "";
+            for (int i = 0; i < characters.Count; i++)
+            {
+                if (createdChars.Text == characters[i].CharacterName)
+                {
+                    foreach (var variable in characters[i].SavingThrows)
+                    {
+                        statDisplay.Text += "Name = ";
+                        statDisplay.Text += variable.Value.Name;
+                        statDisplay.AppendText(Environment.NewLine);
+                        statDisplay.Text += "Value = ";
+                        statDisplay.Text += variable.Value.Value;
+                        statDisplay.AppendText(Environment.NewLine);
+                        statDisplay.Text += "Description = ";
+                        statDisplay.Text += variable.Value.Description;
+                        statDisplay.AppendText(Environment.NewLine);
+                        statDisplay.AppendText(Environment.NewLine);
+                    }
 
+                    break;
+                }
+            }
         }
     }
 }
