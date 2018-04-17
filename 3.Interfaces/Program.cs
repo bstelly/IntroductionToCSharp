@@ -6,41 +6,51 @@ using System.Threading.Tasks;
 
 namespace _3.Interfaces
 {
-    class Program
+    static class Program
     {
+        //static void Test(List<ILoggable> loggables)
+        //{
+        //    foreach (var item in loggables)
+        //    {
+        //        item.Log();
+        //    }
+        //}
+
+        //static void Main(string[] args)
+        //{
+        //    Test(new List<ILoggable>()
+        //    {
+        //        new Animal("Scooby"),
+        //        new Animal("Fluffy"),
+        //        new Animal("Sonic"),
+        //        new Animal("Tails"),
+        //        new Animal("Quackers"),
+        //        new Vehicle("Lightning"),
+        //        new Vehicle("Herby"),
+        //        new Vehicle("Blue")
+        //    });
+        //    Console.ReadLine();
+        //}
+        static void Fight(List<IDamager> damagers)
+        {
+
+        }
         static void Main(string[] args)
         {
-            List<Vehicle> vehicles = new List<Vehicle>();
-            List<Animal> animals = new List<Animal>();
-            Animal dog = new Animal("Scooby");
-            Animal cat = new Animal("Fluffy");
-            Animal hedgehog = new Animal("Sonic");
-            Animal fox = new Animal("Tails");
-            Animal duck = new Animal("Quackers");
-            Vehicle carOne = new Vehicle("Lightning");
-            Vehicle carTwo = new Vehicle("Herby");
-            Vehicle carThree = new Vehicle("Blue");
-            animals.Add(dog);
-            animals.Add(cat);
-            animals.Add(hedgehog);
-            animals.Add(fox);
-            animals.Add(duck);
-            vehicles.Add(carOne);
-            vehicles.Add(carTwo);
-            vehicles.Add(carThree);
-
-
-
-            for (int i = 0; i < animals.Count; i++)
+            var fighters = new List<Entity>
             {
-                animals[i].Log();
-            }
-            for (int i = 0; i < vehicles.Count; i++)
-            {
-                vehicles[i].Log();
-            }
-
-            Console.ReadLine();
+                new Assassin("Ezio", 100),
+                new Ninja("Scorpion", 100),
+                new Robot("Zero", 100),
+                new Witcher("Geralt", 100),
+                new Spartan("Master Chief", 100),
+                new Nord("Ulfric", 100),
+                new Soldier("Shephard", 100)
+            };
         }
+
+
+
+
     }
 }
