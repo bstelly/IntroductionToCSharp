@@ -1,0 +1,6 @@
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\3.Interfaces\bin\Debug\3.Interfaces.exe.config
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\3.Interfaces\bin\Debug\3.Interfaces.exe
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\3.Interfaces\bin\Debug\3.Interfaces.pdb
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\3.Interfaces\obj\Debug\3.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\3.Interfaces\obj\Debug\3.Interfaces.exe
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\3.Interfaces\obj\Debug\3.Interfaces.pdb
