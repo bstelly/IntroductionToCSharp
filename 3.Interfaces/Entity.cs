@@ -7,95 +7,127 @@ using _3.Interfaces;
 
 namespace _3.Interfaces
 {
-    public abstract class Entity : IDamageable
+    public abstract class Entity : IDamageable, IDamager
     {
         private int health;
         private string name;
-        public int HitModifier;
+        public int HitModifier { get; set; }
         public int ArmorClass { get; set; }
-        public bool TakeDamage(int amount)
+        public void TakeDamage(int amount)
         {
-            return true;
+            if (amount == 0)
+            {
+                Console.WriteLine(Name + "\n");
+                Console.WriteLine("The attack misses.");
+            }
+            else
+            {
+                Console.WriteLine(Name + "\n");
+                Health -= amount;
+                Console.WriteLine(Name + " is hit for " + amount + "\n");
+            }
         }
-        void DoDamage(IDamageable entity)
+        public int Health
         {
-
+            get { return health; }
+            set { health = value; }
         }
-
         public string Name
         {
             get { return name; }
             set { name = value; }
         }
 
-        public int Health
+        public void DoDamage(IDamageable entity)
         {
-            get { return health; }
-            set { health = value; }
+            var rand = new Random();
+            int roll = rand.Next(1, 21);
+            if (roll > entity.ArmorClass - HitModifier)
+            {
+                Console.WriteLine(Name + " is attacking ");
+                entity.TakeDamage(HitModifier + roll);
+            }
+            else
+            {
+                Console.WriteLine(Name + " is attacking ");
+                entity.TakeDamage(0);
+            }
         }
-
-
     }
 }
 
 public class Assassin : Entity
 {
-    public Assassin(string name, int health)
+    public Assassin(string name, int health, int armor, int modifier)
     {
         Name = name;
         Health = health;
+        ArmorClass = armor;
+        HitModifier = modifier;
     }
 }
 
 public class Ninja : Entity
 {
-    public Ninja(string name, int health)
+    public Ninja(string name, int health, int armor, int modifier)
     {
         Name = name;
         Health = health;
+        ArmorClass = armor;
+        HitModifier = modifier;
     }
 }
 
 public class Robot : Entity
 {
-    public Robot(string name, int health)
+    public Robot(string name, int health, int armor, int modifier)
     {
         Name = name;
         Health = health;
+        ArmorClass = armor;
+        HitModifier = modifier;
     }
 }
 
 public class Witcher : Entity
-{    public Witcher(string name, int health)
+{    public Witcher(string name, int health, int armor, int modifier)
     {
         Name = name;
         Health = health;
+        ArmorClass = armor;
+        HitModifier = modifier;
     }
 }
 
 public class Spartan : Entity
 {
-    public Spartan(string name, int health)
+    public Spartan(string name, int health, int armor, int modifier)
     {
         Name = name;
         Health = health;
+        ArmorClass = armor;
+        HitModifier = modifier;
     }
 }
 
 public class Nord : Entity
 {
-    public Nord(string name, int health)
+    public Nord(string name, int health, int armor, int modifier)
     {
         Name = name;
         Health = health;
+        ArmorClass = armor;
+        HitModifier = modifier;
     }
 }
 
 public class Soldier : Entity
 {
-    public Soldier(string name, int health)
+    public Soldier(string name, int health, int armor, int modifier)
     {
         Name = name;
         Health = health;
+        ArmorClass = armor;
+        HitModifier = modifier;
     }
 }

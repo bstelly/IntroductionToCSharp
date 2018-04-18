@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animal.cs" />
+    <Compile Include="Combat.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="ILoggable.cs" />
     <Compile Include="IDamageable.cs" />
