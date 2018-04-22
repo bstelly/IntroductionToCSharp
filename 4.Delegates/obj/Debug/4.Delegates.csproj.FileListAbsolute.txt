@@ -1,0 +1,10 @@
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\4.Delegates\bin\Debug\4.Delegates.exe.config
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\4.Delegates\bin\Debug\4.Delegates.exe
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\4.Delegates\bin\Debug\4.Delegates.pdb
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\4.Delegates\bin\Debug\1.Containers.exe
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\4.Delegates\bin\Debug\1.Containers.pdb
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\4.Delegates\bin\Debug\1.Containers.exe.config
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\4.Delegates\obj\Debug\4.Delegates.csprojResolveAssemblyReference.cache
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\4.Delegates\obj\Debug\4.Delegates.csproj.CoreCompileInputs.cache
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\4.Delegates\obj\Debug\4.Delegates.exe
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\4.Delegates\obj\Debug\4.Delegates.pdb

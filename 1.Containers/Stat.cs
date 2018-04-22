@@ -8,8 +8,21 @@ namespace _1.Containers
 {
     public class Stat
     {
-        public string Name { get; private set; }
-        public int Value { get; private set; }
+        public delegate int TStatIsChanged(int newValue);
+        public TStatIsChanged OnChange;
+        public string Name { get; set; }
+        public int Value {
+            get
+            {
+                return Value;
+            }
+            set
+            {
+                Value = value;
+                OnChange(value);
+
+            }
+            }
         public string Description { get; private set; }
 
         public Stat(string name, int value, string description)
@@ -30,10 +43,10 @@ namespace _1.Containers
             return temp;
         }
 
-
         public override string ToString()
         {
             return base.ToString();
         }
     }
+
 }
