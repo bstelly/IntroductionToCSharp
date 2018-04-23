@@ -28,13 +28,15 @@ namespace _5.Serialization
             statsOne.statList.Add(charisma);
 
             JsonSerializer serializer = new JsonSerializer();
-            TextWriter writer = new StreamWriter("output.json");
+            TextWriter writer = new StreamWriter("stats.json");
             serializer.Serialize(writer, statsOne);
             writer.Close();
 
-            System.IO.TextReader readFile  = new StreamReader("output.json");
+            System.IO.TextReader readFile  = new StreamReader("stats.json");
             JsonReader reader = new JsonTextReader(readFile);
             var statsTwo = serializer.Deserialize(reader);
+
+            JsonConvert.SerializeObject(statsOne, Formatting.Indented);
         }
     }
 }
