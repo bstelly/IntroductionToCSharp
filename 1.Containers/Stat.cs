@@ -10,11 +10,13 @@ namespace _1.Containers
     {
         public delegate int TStatIsChanged(int newValue);
         public TStatIsChanged OnChange;
+
+        private int value;
         public string Name { get; set; }
 
         public int Value
         {
-            get { return Value; }
+            get { return value; }
             set
             {
                 OnChange?.Invoke(value);

@@ -20,6 +20,8 @@ namespace _4.Delegates
             myStat.OnChange = HandleValueChange;
             myStat.Value = 30;
             myStat.Value = 67;
+            myStat.Value = 83;
+
             Console.ReadLine();
         }
 
