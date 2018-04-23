@@ -19,6 +19,7 @@ namespace _4.Delegates
             var myStat = new Stat("Health", 100, "Amount of health");
             myStat.OnChange = HandleValueChange;
             myStat.Value = 30;
+            myStat.Value = 67;
             Console.ReadLine();
         }
 
