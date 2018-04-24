@@ -1,0 +1,6 @@
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\6.StatePattern\bin\Debug\6.StatePattern.exe.config
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\6.StatePattern\bin\Debug\6.StatePattern.exe
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\6.StatePattern\bin\Debug\6.StatePattern.pdb
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\6.StatePattern\obj\Debug\6.StatePattern.csprojResolveAssemblyReference.cache
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\6.StatePattern\obj\Debug\6.StatePattern.exe
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\6.StatePattern\obj\Debug\6.StatePattern.pdb

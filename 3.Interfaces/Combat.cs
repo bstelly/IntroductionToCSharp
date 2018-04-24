@@ -28,7 +28,6 @@ namespace _3.Interfaces
         {
             Console.WriteLine("Press enter to begin a new round.");
             var rand = new Random();
-            int roll;
             int fighterOne;
             int fighterTwo;
 
