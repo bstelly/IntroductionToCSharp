@@ -32,10 +32,6 @@ namespace SerializationQuiz
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
-            //string path = System.Environment.GetFolderPath();
-            //string json = JsonConvert.SerializeObject(player, Formatting.Indented);
-            //File.WriteAllText(@"C: \Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\SerializationQuiz\bin\Debug\Character Save.json",
-            //    JsonConvert.SerializeObject(player, Formatting.Indented));
             TextWriter writer = new StreamWriter("Character Save.json");
             writer.Write(JsonConvert.SerializeObject(player, Formatting.Indented));
             writer.Close();
