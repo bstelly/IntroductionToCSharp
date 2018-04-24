@@ -31,9 +31,8 @@ namespace _5.Serialization
             TextWriter writer = new StreamWriter("stats.json");
             serializer.Serialize(writer, statsOne);
             writer.Close();
+
             string json = JsonConvert.SerializeObject(statsOne, Formatting.Indented);
-            System.IO.TextReader readFile  = new StreamReader("stats.json");
-            JsonReader reader = new JsonTextReader(readFile);
             var statsTwo = JsonConvert.DeserializeObject<Stats>(json);
         }
     }
