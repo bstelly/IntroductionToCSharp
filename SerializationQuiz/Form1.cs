@@ -49,7 +49,7 @@ namespace SerializationQuiz
             Display.Text = "Player" + Environment.NewLine;
             Display.Text += "Experience: " + player.Experience + Environment.NewLine;
             Display.Text += "Level: " + player.Level + Environment.NewLine + Environment.NewLine;
-            Display.Text += "XP until Level up:  " + (XpForNextLvl - player.Experience);
+            Display.Text += "XP until Level Up:  " + (XpForNextLvl - player.Experience);
         }
 
         private void CheckForLevelUp()

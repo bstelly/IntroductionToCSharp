@@ -35,7 +35,7 @@
             // 
             // SaveButton
             // 
-            this.SaveButton.Location = new System.Drawing.Point(21, 267);
+            this.SaveButton.Location = new System.Drawing.Point(285, 179);
             this.SaveButton.Name = "SaveButton";
             this.SaveButton.Size = new System.Drawing.Size(187, 46);
             this.SaveButton.TabIndex = 0;
@@ -45,9 +45,9 @@
             // 
             // GainXpButton
             // 
-            this.GainXpButton.Location = new System.Drawing.Point(21, 89);
+            this.GainXpButton.Location = new System.Drawing.Point(21, 29);
             this.GainXpButton.Name = "GainXpButton";
-            this.GainXpButton.Size = new System.Drawing.Size(187, 79);
+            this.GainXpButton.Size = new System.Drawing.Size(175, 175);
             this.GainXpButton.TabIndex = 1;
             this.GainXpButton.Text = "Gain Experience";
             this.GainXpButton.UseVisualStyleBackColor = true;
@@ -55,17 +55,17 @@
             // 
             // Display
             // 
-            this.Display.Location = new System.Drawing.Point(262, 12);
+            this.Display.Location = new System.Drawing.Point(262, 29);
             this.Display.Multiline = true;
             this.Display.Name = "Display";
-            this.Display.Size = new System.Drawing.Size(231, 301);
+            this.Display.Size = new System.Drawing.Size(231, 75);
             this.Display.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(505, 337);
+            this.ClientSize = new System.Drawing.Size(505, 237);
             this.Controls.Add(this.Display);
             this.Controls.Add(this.GainXpButton);
             this.Controls.Add(this.SaveButton);
