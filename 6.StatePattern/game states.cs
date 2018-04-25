@@ -10,7 +10,7 @@ namespace _6.StatePattern
     {
         public void OnEnter(IContext context)
         {
-            //context.UpdateContext();
+            Console.WriteLine("Now Entering: " + this + " state");
         }
 
         public void UpdateState(IContext context)
@@ -20,7 +20,7 @@ namespace _6.StatePattern
 
         public void OnExit(IContext context)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Now Leaving: " + context.CurrentState + " state");
         }
     }
 
@@ -28,17 +28,17 @@ namespace _6.StatePattern
     {
         public void OnEnter(IContext context)
         {
-            context.ChangeState(this);
+            Console.WriteLine("Now Entering: " + this + " state");
         }
 
         public void UpdateState(IContext context)
         {
-            throw new NotImplementedException();
+            context.ChangeState(this);
         }
 
         public void OnExit(IContext context)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Now Leaving: " + context.CurrentState + " state");
         }
     }
 
@@ -46,7 +46,7 @@ namespace _6.StatePattern
     {
         public void OnEnter(IContext context)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Now Entering: " + this + " state");
         }
 
         public void UpdateState(IContext context)
@@ -56,7 +56,7 @@ namespace _6.StatePattern
 
         public void OnExit(IContext context)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Now Leaving: " + context.CurrentState + " state");
         }
     }
 }
