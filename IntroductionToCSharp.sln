@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationQuiz", "Serial
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.StatePattern", "6.StatePattern\6.StatePattern.csproj", "{450C1C60-C9C2-4DB5-8C65-EAC94E79D21E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationWinform", "SerializationWinform\SerializationWinform.csproj", "{F8981635-033C-4356-A883-CD834D6BF0CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{450C1C60-C9C2-4DB5-8C65-EAC94E79D21E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{450C1C60-C9C2-4DB5-8C65-EAC94E79D21E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{450C1C60-C9C2-4DB5-8C65-EAC94E79D21E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8981635-033C-4356-A883-CD834D6BF0CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8981635-033C-4356-A883-CD834D6BF0CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8981635-033C-4356-A883-CD834D6BF0CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8981635-033C-4356-A883-CD834D6BF0CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
