@@ -34,6 +34,7 @@ namespace _5.Serialization
 
             string json = JsonConvert.SerializeObject(statsOne, Formatting.Indented);
             var statsTwo = JsonConvert.DeserializeObject<Stats>(json);
+
         }
     }
 }

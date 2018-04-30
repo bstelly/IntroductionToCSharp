@@ -19,3 +19,5 @@ C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationWinform\obj\Debug\S
 C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationWinform\obj\Debug\SerializationWinform.exe
 C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationWinform\obj\Debug\SerializationWinform.pdb
 C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationWinform\obj\Debug\SerializationWinform.csprojResolveAssemblyReference.cache
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\SerializationWinform\bin\Debug\Newtonsoft.Json.dll
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\SerializationWinform\bin\Debug\Newtonsoft.Json.xml

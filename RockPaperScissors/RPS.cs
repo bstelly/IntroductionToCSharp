@@ -12,7 +12,7 @@ namespace RockPaperScissors
     {
         public string PlayerChoice { get; set; }
         public string ComputerChoice { get; set; }
-        private List<string> VictoryConditions = new List<string>
+        public List<string> VictoryConditions = new List<string>
         {
             "Rock > Scissors",
             "Paper > Rock",

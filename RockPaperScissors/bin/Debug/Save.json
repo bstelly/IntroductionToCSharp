@@ -1,8 +1,13 @@
 {
+  "VictoryConditions": [
+    "Rock > Scissors",
+    "Paper > Rock",
+    "Scissors > Paper"
+  ],
   "tally": [
     0,
-    0
+    4
   ],
-  "PlayerChoice": null,
-  "ComputerChoice": null
+  "PlayerChoice": "Paper",
+  "ComputerChoice": "Scissors"
 }

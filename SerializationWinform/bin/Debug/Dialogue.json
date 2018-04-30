@@ -1,5 +1,4 @@
 {
-  "DialogueTree": {
     "DialogueRoot": [
       {
         "DialogueNode": [
@@ -62,7 +61,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-002A",
           "ParticipantName": "Enpi Seeki",
           "EmoteType": "Reg",
@@ -73,9 +72,10 @@
           "Participants": "1",
           "ConversationSummary": "After initial conversation with Enpi Seeki (CON01-001A) if he is interacted with again BEFORE the player completes Mission 1.1 he will deliver this new line."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-002B",
           "ParticipantName": "Enpi Seeki",
           "EmoteType": "Reg",
@@ -86,9 +86,10 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with Enpi Seeki BEFORE the player completes Mission 1.1 but AFTER already triggering CON01-002A, he will deliver this alternative line."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-002C",
           "ParticipantName": "Enpi Seeki",
           "EmoteType": "Reg",
@@ -99,9 +100,10 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with Enpi Seeki BEFORE the player completes Mission 1.1 but AFTER already triggering CON01-002B, he will deliver this alternative line."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-002D",
           "ParticipantName": "Enpi Seeki",
           "EmoteType": "Reg",
@@ -112,6 +114,7 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with Enpi Seeki BEFORE the player completes Mission 1.1 but AFTER already triggering CON01-002C, he will deliver this alternative line. This line will be repeated should he be approached agian before completing Mission 1.1."
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -234,7 +237,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-005A",
           "ParticipantName": "Enpi Seeki",
           "EmoteType": "Reg",
@@ -245,9 +248,10 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with Enpi Seeki AFTER already triggering CON01-004A, he will deliver this alternative line."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-005B",
           "ParticipantName": "Enpi Seeki",
           "EmoteType": "Excited",
@@ -258,9 +262,10 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with Enpi Seeki AFTER already triggering CON01-005A, he will deliver this alternative line."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-005C",
           "ParticipantName": "Enpi Seeki",
           "EmoteType": "Reg",
@@ -271,6 +276,7 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with Enpi Seeki AFTER already triggering CON01-005B, he will deliver this alternative line. If interacted with again he will repeat CON01-005A."
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -621,7 +627,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-009A",
           "ParticipantName": "Cheeki Tieftan",
           "EmoteType": "Sad",
@@ -632,9 +638,10 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with Cheeki Tieftan AFTER already triggering CON01-008A, he will deliver this alternative line."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-009B",
           "ParticipantName": "Cheeki Tieftan",
           "EmoteType": "Sad",
@@ -645,9 +652,10 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with Cheeki Tieftan AFTER already triggering CON01-009A, he will deliver this alternative line."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-009C",
           "ParticipantName": "Cheeki Tieftan",
           "EmoteType": "Sad",
@@ -658,6 +666,7 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with Cheeki Tieftan AFTER already triggering CON01-009B, he will deliver this alternative line. If interacted with again he will repeat CON01-009A"
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -858,7 +867,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-013A",
           "ParticipantName": "Espee Seeay",
           "EmoteType": "Reg",
@@ -869,6 +878,7 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with Espee Seeay before completing Mission 1.4"
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -976,7 +986,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-018A",
           "ParticipantName": "Espee Seeay",
           "EmoteType": "Reg",
@@ -987,9 +997,10 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with Espee Seeay AFTER completing mission 1.4 he will deliver this alternate line."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-018B",
           "ParticipantName": "Espee Seeay",
           "EmoteType": "Reg",
@@ -1000,9 +1011,10 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with Espee Seeay AFTER triggering CON01-018A he will deliver this alternate line."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-018C",
           "ParticipantName": "Espee Seeay",
           "EmoteType": "Reg",
@@ -1013,6 +1025,7 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with Espee Seeay AFTER triggering CON01-018B he will deliver this alternate line. If interacted with again he will repeat CON01-018A"
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -1093,7 +1106,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-020A",
           "ParticipantName": "T.I.M.B.U.R.",
           "EmoteType": "Reg",
@@ -1104,9 +1117,10 @@
           "Participants": "1",
           "ConversationSummary": "Auto-triggered once player lands an attack on the T.I.M.B.U.R. pilot ending the first round of the battle."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-021A",
           "ParticipantName": "T.I.M.B.U.R.",
           "EmoteType": "Reg",
@@ -1117,6 +1131,7 @@
           "Participants": "1",
           "ConversationSummary": "Auto-triggered once player lands an attack on the T.I.M.B.U.R. pilot ending the second round of the battle."
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -1161,7 +1176,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-023A",
           "ParticipantName": "T.I.M.B.U.R.",
           "EmoteType": "Reg",
@@ -1172,9 +1187,10 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with T.I.M.B.U.R. after completing mission 1.5"
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-023B",
           "ParticipantName": "T.I.M.B.U.R.",
           "EmoteType": "Reg",
@@ -1185,9 +1201,10 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with T.I.M.B.U.R. after triggering CON01-023A he will deliver this alternative line."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-023C",
           "ParticipantName": "T.I.M.B.U.R.",
           "EmoteType": "Reg",
@@ -1198,9 +1215,10 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with T.I.M.B.U.R. after triggering CON01-023B he will deliver this alternative line."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-023D",
           "ParticipantName": "T.I.M.B.U.R.",
           "EmoteType": "Reg",
@@ -1211,9 +1229,10 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with T.I.M.B.U.R. after triggering CON01-023C he will deliver this alternative line."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-023E",
           "ParticipantName": "T.I.M.B.U.R.",
           "EmoteType": "Reg",
@@ -1224,9 +1243,10 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with T.I.M.B.U.R. after triggering CON01-023D he will deliver this alternative line."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-023F",
           "ParticipantName": "T.I.M.B.U.R.",
           "EmoteType": "Reg",
@@ -1237,6 +1257,7 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with T.I.M.B.U.R. after triggering CON01-023E he will deliver this alternative line. If interacted with again he will repeat CON01-023A"
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -1425,7 +1446,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-025A",
           "ParticipantName": "Loomi Natti",
           "EmoteType": "Reg",
@@ -1436,9 +1457,10 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with Loomi Natti after triggering CON01-024A he will deliver this alternative line."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-025B",
           "ParticipantName": "Loomi Natti",
           "EmoteType": "Reg",
@@ -1449,6 +1471,7 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with Loomi Natti after triggering CON01-025A he will deliver this alternative line."
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -1475,7 +1498,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-025D",
           "ParticipantName": "Loomi Natti",
           "EmoteType": "Reg",
@@ -1486,6 +1509,7 @@
           "Participants": "1",
           "ConversationSummary": "If player interacts with Loomi Natti after triggering CON01-025C he will deliver this alternative line."
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -1521,7 +1545,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-026A",
           "ParticipantName": "Loomi Natti",
           "EmoteType": "Happy",
@@ -1532,9 +1556,10 @@
           "Participants": "1",
           "ConversationSummary": "Triggered when player destroys the first Lambotiki Diablo vehicle (agnostic of which car is destroyed first)"
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-026B",
           "ParticipantName": "Loomi Natti",
           "EmoteType": "Happy",
@@ -1545,9 +1570,10 @@
           "Participants": "1",
           "ConversationSummary": "Triggered when player destroys the second Lambotiki Diablo vehicle (agnostic of which car is destroyed)"
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-026C",
           "ParticipantName": "Loomi Natti",
           "EmoteType": "Happy",
@@ -1558,6 +1584,7 @@
           "Participants": "1",
           "ConversationSummary": "Triggered when player destroys the third Lambotiki Diablo vehicle (agnostic of which car is destroyed)"
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -1584,7 +1611,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-027A",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Angry",
@@ -1595,9 +1622,10 @@
           "Participants": "1",
           "ConversationSummary": "Played immediatly after CON01-26A IF Gnawton has not been defeated by the player. Text floats over gameplay."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-027B",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Angry",
@@ -1608,9 +1636,10 @@
           "Participants": "1",
           "ConversationSummary": "Played immediatly after CON01-26A IF Gnawton has not been defeated by the player. Text floats over gameplay."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-027C",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Angry",
@@ -1621,9 +1650,10 @@
           "Participants": "1",
           "ConversationSummary": "Played immediatly after CON01-26A IF Gnawton has not been defeated by the player. Text floats over gameplay."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-027D",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Angry",
@@ -1634,6 +1664,7 @@
           "Participants": "1",
           "ConversationSummary": "Played immediatly after CON01-26A IF Gnawton has not been defeated by the player. Text floats over gameplay."
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -1696,7 +1727,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-029A",
           "ParticipantName": "Loomi Natti",
           "EmoteType": "Reg",
@@ -1707,6 +1738,7 @@
           "Participants": "1",
           "ConversationSummary": "Triggered when player interacts with Loomi Natti AFTER completing Mission 1.6"
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -1799,7 +1831,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-032A",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Reg",
@@ -1810,9 +1842,10 @@
           "Participants": "1",
           "ConversationSummary": "IF Gnawton has not been defeated this is triggered ontop of gameplay when player is in the pool area behind Gnawton's Mansion. Frequency TBD."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-032B",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Reg",
@@ -1823,9 +1856,10 @@
           "Participants": "1",
           "ConversationSummary": "IF Gnawton has not been defeated this is triggered ontop of gameplay when player is in the pool area behind Gnawton's Mansion. Frequency TBD. Only plays after CON01-032A has already occured."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-032C",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Reg",
@@ -1836,9 +1870,10 @@
           "Participants": "1",
           "ConversationSummary": "IF Gnawton has not been defeated this is triggered ontop of gameplay when player is in the pool area behind Gnawton's Mansion. Frequency TBD. Only plays after CON01-032B has already occured."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-032D",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Reg",
@@ -1849,9 +1884,10 @@
           "Participants": "1",
           "ConversationSummary": "IF Gnawton has not been defeated this is triggered ontop of gameplay when player is in the pool area behind Gnawton's Mansion. Frequency TBD. Only plays after CON01-032D has already occured. Will repeat CON01-032A next after line has been delivered."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-033A",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Angry",
@@ -1862,9 +1898,10 @@
           "Participants": "1",
           "ConversationSummary": "Triggered ontop of gameplay IF Gnawton has not been defeated after CUT01-007 plays showing the pool tap being turned off by the player."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-034A",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Angry",
@@ -1875,6 +1912,7 @@
           "Participants": "1",
           "ConversationSummary": "Triggered ontop of gameplay IF Gnawton has not been defeated after CUT01-007 plays showing the pool tap being turned off by the player."
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -1988,7 +2026,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-037A",
           "ParticipantName": "Beefi Tiki",
           "EmoteType": "Reg",
@@ -1999,9 +2037,10 @@
           "Participants": "1",
           "ConversationSummary": "Triggered ontop of gameplay after CON01-036A when player is in the area by Beefi Tiki. Frequency TBD. Will not play if CON01-037A has already been triggered by the player jumping up to the ledge."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-037B",
           "ParticipantName": "Beefi Tiki",
           "EmoteType": "Reg",
@@ -2012,9 +2051,10 @@
           "Participants": "1",
           "ConversationSummary": "Triggered ontop of gameplay after CON01-036A when player is in the area by Beefi Tiki. Frequency TBD. Will not play if CON01-037A has already been triggered by the player jumping up to the ledge. Only plays after CON01-037A has already occured"
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-037C",
           "ParticipantName": "Beefi Tiki",
           "EmoteType": "Reg",
@@ -2025,6 +2065,7 @@
           "Participants": "1",
           "ConversationSummary": "Triggered ontop of gameplay after CON01-036A when player is in the area by Beefi Tiki. Frequency TBD. Will not play if CON01-037A has already been triggered by the player jumping up to the ledge. Only plays after CON01-037B has already occured. Will repeat CON01-037A if triggered again."
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -2202,7 +2243,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-041A",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Angry",
@@ -2213,6 +2254,7 @@
           "Participants": "1",
           "ConversationSummary": "Auto triggered when Mutt enters the interior scene of Gnawton's Mansion for the first time."
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -2266,7 +2308,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-043A",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Angry",
@@ -2277,9 +2319,10 @@
           "Participants": "1",
           "ConversationSummary": "Triggered when player enters area beyond the security door in Gnawton's Mansion hallway. Voice floats over gameplay."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-044A",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Startled",
@@ -2290,9 +2333,10 @@
           "Participants": "1",
           "ConversationSummary": "Triggereed when Gnawton stops to straighten his crooked portrait during his boss battle encounter. One of many randomized lines delivered each time this occurs. Text floats over gameplay."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-044B",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Angry",
@@ -2303,9 +2347,10 @@
           "Participants": "1",
           "ConversationSummary": "Triggereed when Gnawton stops to straighten his crooked portrait during his boss battle encounter. One of many randomized lines delivered each time this occurs. Text floats over gameplay."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-044C",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Angry",
@@ -2316,9 +2361,10 @@
           "Participants": "1",
           "ConversationSummary": "Triggereed when Gnawton stops to straighten his crooked portrait during his boss battle encounter. One of many randomized lines delivered each time this occurs. Text floats over gameplay."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-044D",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Startled",
@@ -2329,9 +2375,10 @@
           "Participants": "1",
           "ConversationSummary": "Triggereed when Gnawton stops to straighten his crooked portrait during his boss battle encounter. One of many randomized lines delivered each time this occurs. Text floats over gameplay."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-044E",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Reg",
@@ -2342,9 +2389,10 @@
           "Participants": "1",
           "ConversationSummary": "Triggereed when Gnawton stops to straighten his crooked portrait during his boss battle encounter. One of many randomized lines delivered each time this occurs. Text floats over gameplay."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-045A",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Reg",
@@ -2355,9 +2403,10 @@
           "Participants": "1",
           "ConversationSummary": "Triggereed when the time runs out and the player has not hurt Gnawton while straightening his crooked portrait during his boss battle encounter. One of many randomized lines delivered each time this occurs. Text floats over gameplay."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-045B",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Reg",
@@ -2368,9 +2417,10 @@
           "Participants": "1",
           "ConversationSummary": "Triggereed when the time runs out and the player has not hurt Gnawton while straightening his crooked portrait during his boss battle encounter. One of many randomized lines delivered each time this occurs. Text floats over gameplay."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-045C",
           "ParticipantName": "Gnawton Sawtooth III",
           "EmoteType": "Reg",
@@ -2381,6 +2431,7 @@
           "Participants": "1",
           "ConversationSummary": "Triggereed when the time runs out and the player has not hurt Gnawton while straightening his crooked portrait during his boss battle encounter. One of many randomized lines delivered each time this occurs. Text floats over gameplay."
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -2443,7 +2494,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-047A",
           "ParticipantName": "Nantooki Tribe NPC A",
           "EmoteType": "Reg",
@@ -2454,9 +2505,10 @@
           "Participants": "1",
           "ConversationSummary": "Triggered when player interacts with a set Nantooki NPC. Location of Nantooki TBD. Character repeats comment if interacted with multiple times."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-048A",
           "ParticipantName": "Nantooki Tribe NPC B",
           "EmoteType": "Reg",
@@ -2467,9 +2519,10 @@
           "Participants": "1",
           "ConversationSummary": "Triggered when player interacts with a set Nantooki NPC. Location of Nantooki TBD. Character repeats comment if interacted with multiple times."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-049A",
           "ParticipantName": "Nantooki Tribe NPC C",
           "EmoteType": "Reg",
@@ -2480,9 +2533,10 @@
           "Participants": "1",
           "ConversationSummary": "Triggered when player interacts with a set Nantooki NPC. Location of Nantooki TBD. Character repeats comment if interacted with multiple times."
         }
+        ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-050A",
           "ParticipantName": "Nantooki Tribe NPC D",
           "EmoteType": "Reg",
@@ -2493,6 +2547,7 @@
           "Participants": "1",
           "ConversationSummary": "Triggered when player interacts with a set Nantooki NPC. Location of Nantooki TBD. Character repeats comment if interacted with multiple times."
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -2519,7 +2574,7 @@
         ]
       },
       {
-        "DialogueNode": {
+        "DialogueNode": [ {
           "ConversationID": "CON01-052A",
           "ParticipantName": "Nantooki Tribe NPC F",
           "EmoteType": "Reg",
@@ -2530,6 +2585,7 @@
           "Participants": "1",
           "ConversationSummary": "Triggered when player interacts with a set Nantooki NPC. Location of Nantooki TBD. Character repeats comment if interacted with multiple times."
         }
+        ]
       },
       {
         "DialogueNode": [
@@ -2566,4 +2622,3 @@
       }
     ]
   }
-}

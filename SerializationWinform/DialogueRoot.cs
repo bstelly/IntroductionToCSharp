@@ -8,6 +8,11 @@ namespace SerializationWinform
 {
     public class DialogueRoot
     {
-        public List<DialogueNode> DialogueNodes = new List<DialogueNode>();
+        public List<DialogueNode> DialogueNode = new List<DialogueNode>();
+
+        //public DialogueRoot()
+        //{
+        //    DialogueNode = new List<DialogueNode>();
+        //}
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.Design.Serialization;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -8,6 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
+using System.IO;
+using Newtonsoft.Json;
+
 
 namespace SerializationWinform
 {
@@ -16,17 +20,14 @@ namespace SerializationWinform
         public Form1()
         {
             InitializeComponent();
+            var directory = Environment.CurrentDirectory;
+            var dialogue = JsonConvert.DeserializeObject<DialogueTree>(File.ReadAllText(directory + @"\Dialogue.json"));
             display.ReadOnly = true;
-            var dialogue = new DialogueTree();
-            dialogue = dialogue.GenerateObject();
-            int i = 0;
-            while (i < 9)
-            {
                 DataGridViewRow row = (DataGridViewRow) grid.RowTemplate.Clone();
-                string[] strings = {"Some Value", "Another value", "one more value"};
+                string[] strings = {dialogue.DialogueRoot[i].DialogueNode[0].ConverstationID};
                 row.CreateCells(grid, strings);
                 grid.Rows.Add(strings);
-                i++;
+
             }
 
             //DataGridViewRow row = new DataGridViewRow();
@@ -37,8 +38,6 @@ namespace SerializationWinform
             //row.Cells[0].Value = "some value 2";
             //row.Cells[1].Value = "next value 2";
             //grid.Rows.Add(row);
-
-
         }
 
     }

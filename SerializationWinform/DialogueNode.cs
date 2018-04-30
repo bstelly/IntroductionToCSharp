@@ -17,5 +17,18 @@ namespace SerializationWinform
         public string SpecialtyCamera { get; set; }
         public string Participants { get; set; }
         public string ConversationSummary { get; set; }
+
+        //public DialogueNode()
+        //{
+        //    ConverstationID = null;
+        //    ParticipantName = null;
+        //    EmoteType = null;
+        //    Side = null;
+        //    Line = null;
+        //    SpecialtyAnimation = null;
+        //    SpecialtyCamera = null;
+        //    Participants = null;
+        //    ConversationSummary = null;
+        //}
     }
 }
