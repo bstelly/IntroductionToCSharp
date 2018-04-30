@@ -6,23 +6,19 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Newtonsoft.Json;
 
 namespace SerializationWinform
 {
+    [Serializable]
     public class DialogueTree
     {
-        public List<DialogueRoot> DialogueRoots = new List<DialogueRoot>();
+        public List<DialogueRoot> DialogueRoot = new List<DialogueRoot>();
 
-        public DialogueTree GenerateObject()
-        {
-            var directory = Environment.CurrentDirectory;
-            var path = directory + @"\Dialogue.json";
-
-            var trial = JsonConvert.DeserializeObject<DialogueTree>(File.ReadAllText("Dialogue.json"));
-            //Console.WriteLine(trial.DialogueRoots.);
-
-            return trial;
-        }
+        //public DialogueTree()
+        //{
+        //    DialogueRoot = new List<DialogueRoot>();
+        //}
     }
 }
