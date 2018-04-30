@@ -17,6 +17,8 @@ namespace SerializationWinform
         {
             InitializeComponent();
             display.ReadOnly = true;
+            var dialogue = new DialogueTree();
+            dialogue = dialogue.GenerateObject();
             int i = 0;
             while (i < 9)
             {

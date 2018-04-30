@@ -7,3 +7,15 @@ C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Seri
 C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\SerializationWinform\obj\Debug\SerializationWinform.csproj.GenerateResource.Cache
 C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\SerializationWinform\obj\Debug\SerializationWinform.exe
 C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\SerializationWinform\obj\Debug\SerializationWinform.pdb
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationWinform\bin\Debug\SerializationWinform.exe.config
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationWinform\bin\Debug\SerializationWinform.exe
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationWinform\bin\Debug\SerializationWinform.pdb
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationWinform\bin\Debug\Newtonsoft.Json.dll
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationWinform\bin\Debug\Newtonsoft.Json.xml
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationWinform\obj\Debug\SerializationWinform.Form1.resources
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationWinform\obj\Debug\SerializationWinform.Properties.Resources.resources
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationWinform\obj\Debug\SerializationWinform.csproj.GenerateResource.Cache
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationWinform\obj\Debug\SerializationWinform.csproj.CoreCompileInputs.cache
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationWinform\obj\Debug\SerializationWinform.exe
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationWinform\obj\Debug\SerializationWinform.pdb
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationWinform\obj\Debug\SerializationWinform.csprojResolveAssemblyReference.cache
