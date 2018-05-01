@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
 using System.IO;
+using System.Threading;
 using Newtonsoft.Json;
 
 
@@ -20,25 +21,136 @@ namespace SerializationWinform
         public Form1()
         {
             InitializeComponent();
+            grid.CellBorderStyle = DataGridViewCellBorderStyle.Raised;
             var directory = Environment.CurrentDirectory;
-            var dialogue = JsonConvert.DeserializeObject<DialogueTree>(File.ReadAllText(directory + @"\Dialogue.json"));
+            dialogue = JsonConvert.DeserializeObject<DialogueTree>(File.ReadAllText(directory + @"\Dialogue.json"));
             display.ReadOnly = true;
-                DataGridViewRow row = (DataGridViewRow) grid.RowTemplate.Clone();
-                string[] strings = {dialogue.DialogueRoot[i].DialogueNode[0].ConverstationID};
-                row.CreateCells(grid, strings);
-                grid.Rows.Add(strings);
 
+            for (int i = 0; i < dialogue.DialogueRoot.Count; i++)
+            {
+                for (int j = 0; j < dialogue.DialogueRoot[i].DialogueNode.Count; j++)
+                {
+                    DataGridViewRow row = (DataGridViewRow) grid.RowTemplate.Clone();
+                    string[] strings =
+                    {
+                        dialogue.DialogueRoot[i].DialogueNode[j].ConversationID,
+                        dialogue.DialogueRoot[i].DialogueNode[j].ParticipantName,
+                        dialogue.DialogueRoot[i].DialogueNode[j].EmoteType,
+                        dialogue.DialogueRoot[i].DialogueNode[j].Side,
+                        dialogue.DialogueRoot[i].DialogueNode[j].Line,
+                        dialogue.DialogueRoot[i].DialogueNode[j].SpecialityAnimation,
+                        dialogue.DialogueRoot[i].DialogueNode[j].SpecialtyCamera,
+                        dialogue.DialogueRoot[i].DialogueNode[j].Participants,
+                        dialogue.DialogueRoot[i].DialogueNode[j].ConversationSummary,
+                    };
+                    row.CreateCells(grid, strings);
+                    grid.Rows.Add(strings);
+                }
             }
 
-            //DataGridViewRow row = new DataGridViewRow();
-            //row.CreateCells(grid);
-            //row.Cells[0].Value = "some value";
-            //row.Cells[1].Value = "next value";
-            //grid.Rows.Add(row);
-            //row.Cells[0].Value = "some value 2";
-            //row.Cells[1].Value = "next value 2";
-            //grid.Rows.Add(row);
+            for (int i = 0; i < dialogue.DialogueRoot.Count; i++)
+            {
+                for (int j = 0; j < dialogue.DialogueRoot[i].DialogueNode.Count; j++)
+                {
+                    dialogueLines += 1;
+                }
+            }
+
         }
 
+
+        private void NextDialogue_Click(object sender, EventArgs e)
+        {
+            if (!display.Text.Contains(dialogue.DialogueRoot[dialogue.DialogueRoot.Count - 1]
+                .DialogueNode[dialogue.DialogueRoot[dialogue.DialogueRoot.Count - 1].
+                                  DialogueNode.Count - 1].Line))
+            {
+                for (int i = 0; i < dialogue.DialogueRoot.Count; i++)
+                {
+                    for (int j = 0; j < dialogue.DialogueRoot[i].DialogueNode.Count; j++)
+                    {
+                        if (display.Text.Contains(dialogue.DialogueRoot[i].DialogueNode[j].Line))
+                        {
+                            if (dialogue.DialogueRoot[i].DialogueNode.Count == j + 1)
+                            {
+                                display.Text = dialogue.DialogueRoot[i + 1].DialogueNode[0].ConversationID + ",  ";
+                                display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].ParticipantName + ",  ";
+                                display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].EmoteType + ",  ";
+                                display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].Line;
+                                return;
+                            }
+
+                            display.Text = dialogue.DialogueRoot[i].DialogueNode[j + 1].ConversationID + ",  ";
+                            display.Text += dialogue.DialogueRoot[i].DialogueNode[j + 1].ParticipantName + ",  ";
+                            display.Text += dialogue.DialogueRoot[i].DialogueNode[j + 1].EmoteType + ",  ";
+                            display.Text += dialogue.DialogueRoot[i].DialogueNode[j + 1].Line;
+                            return;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        private void grid_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+                string convID = grid.SelectedRows[0].Cells[0].Value + string.Empty;
+                string partName = grid.SelectedRows[0].Cells[1].Value + string.Empty;
+                string  emote = grid.SelectedRows[0].Cells[2].Value + string.Empty;
+                string line = grid.SelectedRows[0].Cells[4].Value + string.Empty;
+                display.Text = convID + ",  " + partName + ",  " + emote + ",  " + line;
+        }
+
+        private void grid_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (grid.SelectedCells.Count == 1)
+            {
+                display.Text = grid.Rows[e.RowIndex].Cells[e.ColumnIndex].Value + string.Empty;
+            }
+        }
+
+        private void PrevConvButton_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < dialogue.DialogueRoot.Count; i++)
+            {
+                for (int j = 0; j < dialogue.DialogueRoot[i].DialogueNode.Count; j++)
+                {
+                    if (display.Text.Contains(dialogue.DialogueRoot[i].DialogueNode[j].Line))
+                    {
+                        {
+                            if (i > 0)
+                            {
+                                display.Text = dialogue.DialogueRoot[i - 1].DialogueNode[0].ConversationID + ",  ";
+                                display.Text += dialogue.DialogueRoot[i - 1].DialogueNode[0].ParticipantName + ",  ";
+                                display.Text += dialogue.DialogueRoot[i - 1].DialogueNode[0].EmoteType + ",  ";
+                                display.Text += dialogue.DialogueRoot[i - 1].DialogueNode[0].Line;
+                                return;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        private void NextConvButton_Click(object sender, EventArgs e)
+        { 
+            for (int i = 0; i < dialogue.DialogueRoot.Count; i++)
+            {
+                for (int j = 0; j < dialogue.DialogueRoot[i].DialogueNode.Count; j++)
+                {
+                    if (display.Text.Contains(dialogue.DialogueRoot[i].DialogueNode[j].Line))
+                    {
+                        if (i < dialogue.DialogueRoot.Count - 1)
+                        {
+                            display.Text = dialogue.DialogueRoot[i + 1].DialogueNode[0].ConversationID + ",  ";
+                            display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].ParticipantName + ",  ";
+                            display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].EmoteType + ",  ";
+                            display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].Line;
+                            return;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
