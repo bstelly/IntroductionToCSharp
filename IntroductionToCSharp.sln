@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationWinform", "Ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors", "RockPaperScissors\RockPaperScissors.csproj", "{86DF4F13-C910-43D4-9CBC-EFBB94AE2E40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backpack", "Backpack\Backpack.csproj", "{6D3F60B7-5FD5-45D5-BC05-BA3F8534EBCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{86DF4F13-C910-43D4-9CBC-EFBB94AE2E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86DF4F13-C910-43D4-9CBC-EFBB94AE2E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86DF4F13-C910-43D4-9CBC-EFBB94AE2E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3F60B7-5FD5-45D5-BC05-BA3F8534EBCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3F60B7-5FD5-45D5-BC05-BA3F8534EBCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3F60B7-5FD5-45D5-BC05-BA3F8534EBCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3F60B7-5FD5-45D5-BC05-BA3F8534EBCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

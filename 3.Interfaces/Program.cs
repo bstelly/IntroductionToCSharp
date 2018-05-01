@@ -8,29 +8,6 @@ namespace _3.Interfaces
 {
     static class Program
     {
-        //static void Test(List<ILoggable> loggables)
-        //{
-        //    foreach (var item in loggables)
-        //    {
-        //        item.Log();
-        //    }
-        //}
-
-        //static void Main(string[] args)
-        //{
-        //    Test(new List<ILoggable>()
-        //    {
-        //        new Animal("Scooby"),
-        //        new Animal("Fluffy"),
-        //        new Animal("Sonic"),
-        //        new Animal("Tails"),
-        //        new Animal("Quackers"),
-        //        new Vehicle("Lightning"),
-        //        new Vehicle("Herby"),
-        //        new Vehicle("Blue")
-        //    });
-        //    Console.ReadLine();
-        //}
         static void Main(string[] args)
         {
             var fighters = new List<Entity>

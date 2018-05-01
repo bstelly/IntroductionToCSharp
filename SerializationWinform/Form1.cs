@@ -62,8 +62,7 @@ namespace SerializationWinform
         private void NextDialogue_Click(object sender, EventArgs e)
         {
             if (!display.Text.Contains(dialogue.DialogueRoot[dialogue.DialogueRoot.Count - 1]
-                .DialogueNode[dialogue.DialogueRoot[dialogue.DialogueRoot.Count - 1].
-                                  DialogueNode.Count - 1].Line))
+                .DialogueNode[dialogue.DialogueRoot[dialogue.DialogueRoot.Count - 1].DialogueNode.Count - 1].Line))
             {
                 for (int i = 0; i < dialogue.DialogueRoot.Count; i++)
                 {
@@ -94,11 +93,11 @@ namespace SerializationWinform
 
         private void grid_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-                string convID = grid.SelectedRows[0].Cells[0].Value + string.Empty;
-                string partName = grid.SelectedRows[0].Cells[1].Value + string.Empty;
-                string  emote = grid.SelectedRows[0].Cells[2].Value + string.Empty;
-                string line = grid.SelectedRows[0].Cells[4].Value + string.Empty;
-                display.Text = convID + ",  " + partName + ",  " + emote + ",  " + line;
+            string convID = grid.SelectedRows[0].Cells[0].Value + string.Empty;
+            string partName = grid.SelectedRows[0].Cells[1].Value + string.Empty;
+            string emote = grid.SelectedRows[0].Cells[2].Value + string.Empty;
+            string line = grid.SelectedRows[0].Cells[4].Value + string.Empty;
+            display.Text = convID + ",  " + partName + ",  " + emote + ",  " + line;
         }
 
         private void grid_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -133,7 +132,7 @@ namespace SerializationWinform
         }
 
         private void NextConvButton_Click(object sender, EventArgs e)
-        { 
+        {
             for (int i = 0; i < dialogue.DialogueRoot.Count; i++)
             {
                 for (int j = 0; j < dialogue.DialogueRoot[i].DialogueNode.Count; j++)
