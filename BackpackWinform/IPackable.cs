@@ -10,9 +10,8 @@ namespace BackpackWinform
     interface IPackable
     {
         string Name { get; set; }
-
         bool PickedUp { get; set; }
-
+        string ImageDirectory { get; set; }
         void Pack(Backpack backpack);
     }
 }

@@ -6,23 +6,19 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
 
 namespace BackpackWinform
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
+            string myDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName + @"\pics\shield.png";
+            pictureBox2.ImageLocation = myDirectory;
+            pictureBox1.Visible = false;
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form2 m = new Form2();
-            m.Show();
-        }
-
-
     }
 }

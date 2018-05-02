@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace BackpackWinform
 {
-    class Weapon
+    class Weapon : IPackable
     {
+        public string Name { get; set; }
+        public bool PickedUp { get; set; }
+        public string ImageDirectory { get; set; }
+        public void Pack(Backpack backpack)
+        {
+            backpack.Packables.Add(this);
+        }
     }
 }
