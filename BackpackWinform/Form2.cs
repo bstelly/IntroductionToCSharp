@@ -15,7 +15,7 @@ namespace BackpackWinform
     {
         public Form2(List<IPackable> packables)
         {
-            backpack = new Backpack(packables);
+
             InitializeComponent();
             InvSlots = new List<System.Windows.Forms.PictureBox> {
                 packBox1,
@@ -29,11 +29,38 @@ namespace BackpackWinform
                 packBox9,
                 packBox10 };
 
-            for (int i = 0; i < backpack.Packables.Count; i++)
+            for (int i = 0; i < packables.Count; i++)
             {
-                if (backpack.Packables[i].PickedUp == true)
+                if (packables[i].PickedUp == true)
                 {
-                    InvSlots[i].ImageLocation = backpack.Packables[i].ImageDirectory;
+                    InvSlots[i].ImageLocation = packables[i].ImageDirectory;
+                }
+            }
+            foreach (IPackable x in packables)
+            {
+                if (x.ImageDirectory == packBox1.ImageLocation)
+                {
+                    toolTip1.SetToolTip(packBox1, x.Name);
+                }
+                if (x.ImageDirectory == packBox2.ImageLocation)
+                {
+                    toolTip2.SetToolTip(packBox2, x.Name);
+                }
+                if (x.ImageDirectory == packBox3.ImageLocation)
+                {
+                    toolTip3.SetToolTip(packBox3, x.Name);
+                }
+                if (x.ImageDirectory == packBox4.ImageLocation)
+                {
+                    toolTip4.SetToolTip(packBox4, x.Name);
+                }
+                if (x.ImageDirectory == packBox5.ImageLocation)
+                {
+                    toolTip5.SetToolTip(packBox5, x.Name);
+                }
+                if (x.ImageDirectory == packBox6.ImageLocation)
+                {
+                    toolTip6.SetToolTip(packBox6, x.Name);
                 }
             }
         }

@@ -30,6 +30,7 @@ namespace BackpackWinform
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.packBox1 = new System.Windows.Forms.PictureBox();
             this.packBox2 = new System.Windows.Forms.PictureBox();
             this.packBox3 = new System.Windows.Forms.PictureBox();
@@ -40,6 +41,12 @@ namespace BackpackWinform
             this.packBox9 = new System.Windows.Forms.PictureBox();
             this.packBox10 = new System.Windows.Forms.PictureBox();
             this.packBox5 = new System.Windows.Forms.PictureBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip4 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip6 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.packBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.packBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.packBox3)).BeginInit();
@@ -209,5 +216,11 @@ namespace BackpackWinform
         private Backpack backpack;
         private System.Windows.Forms.PictureBox packBox5;
         private List<System.Windows.Forms.PictureBox> InvSlots;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolTip toolTip2;
+        private System.Windows.Forms.ToolTip toolTip3;
+        private System.Windows.Forms.ToolTip toolTip4;
+        private System.Windows.Forms.ToolTip toolTip5;
+        private System.Windows.Forms.ToolTip toolTip6;
     }
 }
