@@ -42,15 +42,16 @@ namespace BackpackWinform
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.dropToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip4 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip5 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip6 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.pickUpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.pickUpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip4 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.pickUpToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip5 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.pickUpToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip6 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.pickUpToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.buttonSave = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureShield)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureAntidote)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureGun)).BeginInit();
@@ -68,7 +69,7 @@ namespace BackpackWinform
             // ButtonBackpack
             // 
             this.ButtonBackpack.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonBackpack.Location = new System.Drawing.Point(1008, 256);
+            this.ButtonBackpack.Location = new System.Drawing.Point(1008, 147);
             this.ButtonBackpack.Margin = new System.Windows.Forms.Padding(4);
             this.ButtonBackpack.Name = "ButtonBackpack";
             this.ButtonBackpack.Size = new System.Drawing.Size(215, 215);
@@ -161,6 +162,12 @@ namespace BackpackWinform
             this.contextMenuStrip2.Size = new System.Drawing.Size(128, 28);
             this.contextMenuStrip2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip2_MouseClick);
             // 
+            // pickUpToolStripMenuItem
+            // 
+            this.pickUpToolStripMenuItem.Name = "pickUpToolStripMenuItem";
+            this.pickUpToolStripMenuItem.Size = new System.Drawing.Size(127, 24);
+            this.pickUpToolStripMenuItem.Text = "Pick Up";
+            // 
             // contextMenuStrip3
             // 
             this.contextMenuStrip3.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -169,6 +176,12 @@ namespace BackpackWinform
             this.contextMenuStrip3.Name = "contextMenuStrip3";
             this.contextMenuStrip3.Size = new System.Drawing.Size(128, 28);
             this.contextMenuStrip3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip3_MouseClick);
+            // 
+            // pickUpToolStripMenuItem1
+            // 
+            this.pickUpToolStripMenuItem1.Name = "pickUpToolStripMenuItem1";
+            this.pickUpToolStripMenuItem1.Size = new System.Drawing.Size(127, 24);
+            this.pickUpToolStripMenuItem1.Text = "Pick Up";
             // 
             // contextMenuStrip4
             // 
@@ -179,6 +192,12 @@ namespace BackpackWinform
             this.contextMenuStrip4.Size = new System.Drawing.Size(128, 28);
             this.contextMenuStrip4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip4_MouseClick);
             // 
+            // pickUpToolStripMenuItem2
+            // 
+            this.pickUpToolStripMenuItem2.Name = "pickUpToolStripMenuItem2";
+            this.pickUpToolStripMenuItem2.Size = new System.Drawing.Size(127, 24);
+            this.pickUpToolStripMenuItem2.Text = "Pick Up";
+            // 
             // contextMenuStrip5
             // 
             this.contextMenuStrip5.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -188,44 +207,37 @@ namespace BackpackWinform
             this.contextMenuStrip5.Size = new System.Drawing.Size(128, 28);
             this.contextMenuStrip5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip5_MouseClick);
             // 
-            // contextMenuStrip6
-            // 
-            this.contextMenuStrip6.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip6.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.pickUpToolStripMenuItem4});
-            this.contextMenuStrip6.Name = "contextMenuStrip6";
-            this.contextMenuStrip6.Size = new System.Drawing.Size(176, 56);
-            this.contextMenuStrip6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip6_MouseClick);
-            // 
-            // pickUpToolStripMenuItem
-            // 
-            this.pickUpToolStripMenuItem.Name = "pickUpToolStripMenuItem";
-            this.pickUpToolStripMenuItem.Size = new System.Drawing.Size(127, 24);
-            this.pickUpToolStripMenuItem.Text = "Pick Up";
-            // 
-            // pickUpToolStripMenuItem1
-            // 
-            this.pickUpToolStripMenuItem1.Name = "pickUpToolStripMenuItem1";
-            this.pickUpToolStripMenuItem1.Size = new System.Drawing.Size(127, 24);
-            this.pickUpToolStripMenuItem1.Text = "Pick Up";
-            // 
-            // pickUpToolStripMenuItem2
-            // 
-            this.pickUpToolStripMenuItem2.Name = "pickUpToolStripMenuItem2";
-            this.pickUpToolStripMenuItem2.Size = new System.Drawing.Size(127, 24);
-            this.pickUpToolStripMenuItem2.Text = "Pick Up";
-            // 
             // pickUpToolStripMenuItem3
             // 
             this.pickUpToolStripMenuItem3.Name = "pickUpToolStripMenuItem3";
             this.pickUpToolStripMenuItem3.Size = new System.Drawing.Size(127, 24);
             this.pickUpToolStripMenuItem3.Text = "Pick Up";
             // 
+            // contextMenuStrip6
+            // 
+            this.contextMenuStrip6.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip6.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.pickUpToolStripMenuItem4});
+            this.contextMenuStrip6.Name = "contextMenuStrip6";
+            this.contextMenuStrip6.Size = new System.Drawing.Size(128, 28);
+            this.contextMenuStrip6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip6_MouseClick);
+            // 
             // pickUpToolStripMenuItem4
             // 
             this.pickUpToolStripMenuItem4.Name = "pickUpToolStripMenuItem4";
             this.pickUpToolStripMenuItem4.Size = new System.Drawing.Size(127, 24);
             this.pickUpToolStripMenuItem4.Text = "Pick Up";
+            // 
+            // buttonSave
+            // 
+            this.buttonSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSave.Location = new System.Drawing.Point(1008, 656);
+            this.buttonSave.Name = "buttonSave";
+            this.buttonSave.Size = new System.Drawing.Size(215, 54);
+            this.buttonSave.TabIndex = 8;
+            this.buttonSave.Text = "Save";
+            this.buttonSave.UseVisualStyleBackColor = true;
+            this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
             // 
             // MainForm
             // 
@@ -236,6 +248,7 @@ namespace BackpackWinform
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1254, 722);
+            this.Controls.Add(this.buttonSave);
             this.Controls.Add(this.pictureVest);
             this.Controls.Add(this.pictureKnife);
             this.Controls.Add(this.picturePotion);
@@ -289,6 +302,7 @@ namespace BackpackWinform
         private System.Windows.Forms.ToolStripMenuItem pickUpToolStripMenuItem3;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip6;
         private System.Windows.Forms.ToolStripMenuItem pickUpToolStripMenuItem4;
+        private System.Windows.Forms.Button buttonSave;
     }
 }
 

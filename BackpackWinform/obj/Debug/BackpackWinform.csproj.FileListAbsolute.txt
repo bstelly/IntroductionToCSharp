@@ -19,3 +19,5 @@ C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\obj\Debug\Backpa
 C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\obj\Debug\BackpackWinform.exe
 C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\obj\Debug\BackpackWinform.pdb
 C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\obj\Debug\BackpackWinform.MainForm.resources
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\bin\Debug\Newtonsoft.Json.dll
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\bin\Debug\Newtonsoft.Json.xml

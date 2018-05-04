@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using Newtonsoft.Json;
 
 namespace BackpackWinform
 {
@@ -103,6 +104,13 @@ namespace BackpackWinform
             pictureKnife.Visible = false;
             packables[5].PickedUp = true;
             player.Inventory.Packables.Add(packables[5]);
+        }
+
+        private void buttonSave_Click(object sender, EventArgs e)
+        {
+            var directory = Environment.CurrentDirectory;
+            string json = JsonConvert.SerializeObject(player.Inventory.Packables, Formatting.Indented);
+            System.IO.File.WriteAllText(directory + @"\save.json", json);
         }
     }
 }
