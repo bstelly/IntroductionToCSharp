@@ -31,7 +31,7 @@ namespace BackpackWinform
             pictureGun.ImageLocation = packables[4].ImageDirectory;
             pictureKnife.ImageLocation = packables[5].ImageDirectory;
 
-            InvScreen = new Form2(player.Inventory.Packables);
+            InvScreen = new Form2(player);
 
             var pictures = new List<System.Windows.Forms.PictureBox> {
             picturePotion,
@@ -57,7 +57,7 @@ namespace BackpackWinform
             if (InvScreen != null)
             {
                 InvScreen.Hide();
-                InvScreen = new Form2(player.Inventory.Packables);
+                InvScreen = new Form2(player);
             }
             InvScreen.Show();
         }

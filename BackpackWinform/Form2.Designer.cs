@@ -47,6 +47,18 @@ namespace BackpackWinform
             this.toolTip4 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip6 = new System.Windows.Forms.ToolTip(this.components);
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.contextMenuStrip4 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.contextMenuStrip5 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.contextMenuStrip6 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.dropToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dropToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.dropToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.dropToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.dropToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.dropToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.packBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.packBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.packBox3)).BeginInit();
@@ -57,6 +69,12 @@ namespace BackpackWinform
             ((System.ComponentModel.ISupportInitialize)(this.packBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.packBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.packBox5)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
+            this.contextMenuStrip2.SuspendLayout();
+            this.contextMenuStrip3.SuspendLayout();
+            this.contextMenuStrip4.SuspendLayout();
+            this.contextMenuStrip5.SuspendLayout();
+            this.contextMenuStrip6.SuspendLayout();
             this.SuspendLayout();
             // 
             // packBox1
@@ -161,6 +179,96 @@ namespace BackpackWinform
             this.packBox5.TabIndex = 10;
             this.packBox5.TabStop = false;
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dropToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(113, 28);
+            this.contextMenuStrip1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip1_MouseClick);
+            // 
+            // contextMenuStrip2
+            // 
+            this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dropToolStripMenuItem1});
+            this.contextMenuStrip2.Name = "contextMenuStrip2";
+            this.contextMenuStrip2.Size = new System.Drawing.Size(113, 28);
+            this.contextMenuStrip2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip2_MouseClick);
+            // 
+            // contextMenuStrip3
+            // 
+            this.contextMenuStrip3.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dropToolStripMenuItem2});
+            this.contextMenuStrip3.Name = "contextMenuStrip3";
+            this.contextMenuStrip3.Size = new System.Drawing.Size(113, 28);
+            this.contextMenuStrip3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip3_MouseClick);
+            // 
+            // contextMenuStrip4
+            // 
+            this.contextMenuStrip4.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dropToolStripMenuItem3});
+            this.contextMenuStrip4.Name = "contextMenuStrip4";
+            this.contextMenuStrip4.Size = new System.Drawing.Size(113, 28);
+            this.contextMenuStrip4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip4_MouseClick);
+            // 
+            // contextMenuStrip5
+            // 
+            this.contextMenuStrip5.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip5.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dropToolStripMenuItem4});
+            this.contextMenuStrip5.Name = "contextMenuStrip5";
+            this.contextMenuStrip5.Size = new System.Drawing.Size(113, 28);
+            this.contextMenuStrip5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip5_MouseClick);
+            // 
+            // contextMenuStrip6
+            // 
+            this.contextMenuStrip6.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip6.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dropToolStripMenuItem5});
+            this.contextMenuStrip6.Name = "contextMenuStrip6";
+            this.contextMenuStrip6.Size = new System.Drawing.Size(176, 56);
+            this.contextMenuStrip6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip6_MouseClick);
+            // 
+            // dropToolStripMenuItem
+            // 
+            this.dropToolStripMenuItem.Name = "dropToolStripMenuItem";
+            this.dropToolStripMenuItem.Size = new System.Drawing.Size(112, 24);
+            this.dropToolStripMenuItem.Text = "Drop";
+            // 
+            // dropToolStripMenuItem1
+            // 
+            this.dropToolStripMenuItem1.Name = "dropToolStripMenuItem1";
+            this.dropToolStripMenuItem1.Size = new System.Drawing.Size(112, 24);
+            this.dropToolStripMenuItem1.Text = "Drop";
+            // 
+            // dropToolStripMenuItem2
+            // 
+            this.dropToolStripMenuItem2.Name = "dropToolStripMenuItem2";
+            this.dropToolStripMenuItem2.Size = new System.Drawing.Size(112, 24);
+            this.dropToolStripMenuItem2.Text = "Drop";
+            // 
+            // dropToolStripMenuItem3
+            // 
+            this.dropToolStripMenuItem3.Name = "dropToolStripMenuItem3";
+            this.dropToolStripMenuItem3.Size = new System.Drawing.Size(112, 24);
+            this.dropToolStripMenuItem3.Text = "Drop";
+            // 
+            // dropToolStripMenuItem4
+            // 
+            this.dropToolStripMenuItem4.Name = "dropToolStripMenuItem4";
+            this.dropToolStripMenuItem4.Size = new System.Drawing.Size(175, 24);
+            this.dropToolStripMenuItem4.Text = "Drop";
+            // 
+            // dropToolStripMenuItem5
+            // 
+            this.dropToolStripMenuItem5.Name = "dropToolStripMenuItem5";
+            this.dropToolStripMenuItem5.Size = new System.Drawing.Size(112, 24);
+            this.dropToolStripMenuItem5.Text = "Drop";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -193,6 +301,12 @@ namespace BackpackWinform
             ((System.ComponentModel.ISupportInitialize)(this.packBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.packBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.packBox5)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
+            this.contextMenuStrip2.ResumeLayout(false);
+            this.contextMenuStrip3.ResumeLayout(false);
+            this.contextMenuStrip4.ResumeLayout(false);
+            this.contextMenuStrip5.ResumeLayout(false);
+            this.contextMenuStrip6.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -213,7 +327,6 @@ namespace BackpackWinform
         private System.Windows.Forms.PictureBox packBox8;
         private System.Windows.Forms.PictureBox packBox9;
         private System.Windows.Forms.PictureBox packBox10;
-        private Backpack backpack;
         private System.Windows.Forms.PictureBox packBox5;
         private List<System.Windows.Forms.PictureBox> InvSlots;
         private System.Windows.Forms.ToolTip toolTip1;
@@ -222,5 +335,18 @@ namespace BackpackWinform
         private System.Windows.Forms.ToolTip toolTip4;
         private System.Windows.Forms.ToolTip toolTip5;
         private System.Windows.Forms.ToolTip toolTip6;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem dropToolStripMenuItem;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem dropToolStripMenuItem1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip3;
+        private System.Windows.Forms.ToolStripMenuItem dropToolStripMenuItem2;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip4;
+        private System.Windows.Forms.ToolStripMenuItem dropToolStripMenuItem3;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip5;
+        private System.Windows.Forms.ToolStripMenuItem dropToolStripMenuItem4;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip6;
+        private System.Windows.Forms.ToolStripMenuItem dropToolStripMenuItem5;
+        private Player Player;
     }
 }
