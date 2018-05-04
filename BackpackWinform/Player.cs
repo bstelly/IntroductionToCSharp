@@ -6,12 +6,36 @@ using System.Threading.Tasks;
 
 namespace BackpackWinform
 {
-    class Player : Entity
+    public class Player : Entity
     {
-        public int Shield { get; set; }
-        public int BodyArmor { get; set; }
-        public int Weapon { get; set; }
+        public Armor Shield { get; set; }
+        public Armor BodyArmor { get; set; }
+        public Weapon Weapon { get; set; }
         public bool Poisoned { get; set; }
         public Backpack Inventory { get; set; }
+
+        public void TakeDamage(int damage)
+        {
+            damage = damage - (Shield.Defense + BodyArmor.Defense);
+            Health -= damage;
+        }
+        public void Drop(IPackable item)
+        {
+            if(Inventory.Packables.Contains(item))
+            {
+                item.PickedUp = false;
+            }
+        }
+
+        public Player(Backpack backpack)
+        {
+            Health = 100;
+
+            Shield = null;
+            BodyArmor = null;
+            Weapon = null;
+            Poisoned = false;
+            Inventory = backpack;
+        }
     }
 }

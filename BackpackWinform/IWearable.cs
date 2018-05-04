@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace BackpackWinform
 {
-    interface IEquippable
+    public interface IWearable
     {
-        void Equip(Player player);
+        void EquipShield(Player player);
+        void EquipBodyArmor(Player player);
         int Defense { get; set; }
     }
 }

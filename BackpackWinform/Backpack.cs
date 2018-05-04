@@ -6,13 +6,17 @@ using System.Threading.Tasks;
 
 namespace BackpackWinform
 {
-    class Backpack
+    public class Backpack
     {
         public List<IPackable> Packables;
 
         public Backpack(List<IPackable> packablesList)
         {
             Packables = packablesList;
+        }
+        public Backpack()
+        {
+            Packables = new List<IPackable>();
         }
     }
 }

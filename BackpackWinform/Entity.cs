@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BackpackWinform
 {
-    class Entity
+    public class Entity
     {
         public string Name { get; set; }
         public int Health { get; set; }

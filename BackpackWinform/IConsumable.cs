@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BackpackWinform
 {
-    interface IConsumable
+    public interface IConsumable
     {
         void Consume(Player player);
     }

@@ -8,3 +8,14 @@ C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Back
 C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\BackpackWinform\obj\Debug\BackpackWinform.csproj.GenerateResource.Cache
 C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\BackpackWinform\obj\Debug\BackpackWinform.exe
 C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\BackpackWinform\obj\Debug\BackpackWinform.pdb
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\bin\Debug\BackpackWinform.exe.config
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\bin\Debug\BackpackWinform.exe
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\bin\Debug\BackpackWinform.pdb
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\obj\Debug\BackpackWinform.csprojResolveAssemblyReference.cache
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\obj\Debug\BackpackWinform.Form2.resources
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\obj\Debug\BackpackWinform.Properties.Resources.resources
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\obj\Debug\BackpackWinform.csproj.GenerateResource.Cache
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\obj\Debug\BackpackWinform.csproj.CoreCompileInputs.cache
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\obj\Debug\BackpackWinform.exe
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\obj\Debug\BackpackWinform.pdb
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\obj\Debug\BackpackWinform.MainForm.resources

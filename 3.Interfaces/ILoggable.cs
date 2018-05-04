@@ -9,7 +9,6 @@ namespace _3.Interfaces
     public interface ILoggable
     {
         void Log();
-
         string Name { get; set; }
     }
 }

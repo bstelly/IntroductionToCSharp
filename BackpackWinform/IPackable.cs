@@ -4,10 +4,11 @@ using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace BackpackWinform
 {
-    interface IPackable
+    public interface IPackable
     {
         string Name { get; set; }
         bool PickedUp { get; set; }

@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace BackpackWinform
 {
-    interface IDamager
+    public interface IDamager
     {
-        int DoDamage(Entity enemy);
-        int attackValue { get; set; }
+        void Equip(Player player);
+        void DoDamage(Entity enemy);
+        int AttackValue { get; set; }
     }
 }

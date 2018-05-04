@@ -63,7 +63,7 @@
     </Compile>
     <Compile Include="IConsumable.cs" />
     <Compile Include="IDamager.cs" />
-    <Compile Include="IEquippable.cs" />
+    <Compile Include="IWearable.cs" />
     <Compile Include="IPackable.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="Player.cs" />

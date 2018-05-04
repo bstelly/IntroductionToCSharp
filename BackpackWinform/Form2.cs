@@ -13,12 +13,29 @@ namespace BackpackWinform
 {
     public partial class Form2 : Form
     {
-        public Form2()
+        public Form2(List<IPackable> packables)
         {
+            backpack = new Backpack(packables);
             InitializeComponent();
-            string myDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName + @"\pics\shield.png";
-            pictureBox2.ImageLocation = myDirectory;
-            pictureBox1.Visible = false;
+            InvSlots = new List<System.Windows.Forms.PictureBox> {
+                packBox1,
+                packBox2,
+                packBox3,
+                packBox4,
+                packBox5,
+                packBox6,
+                packBox7,
+                packBox8,
+                packBox9,
+                packBox10 };
+
+            for (int i = 0; i < backpack.Packables.Count; i++)
+            {
+                if (backpack.Packables[i].PickedUp == true)
+                {
+                    InvSlots[i].ImageLocation = backpack.Packables[i].ImageDirectory;
+                }
+            }
         }
     }
 }
