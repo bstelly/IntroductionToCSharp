@@ -1,0 +1,11 @@
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\bin\Release\SerializationQuiz.exe.config
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\bin\Release\SerializationQuiz.exe
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\bin\Release\SerializationQuiz.pdb
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\bin\Release\Newtonsoft.Json.dll
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\bin\Release\Newtonsoft.Json.xml
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\obj\Release\SerializationQuiz.Form1.resources
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\obj\Release\SerializationQuiz.Properties.Resources.resources
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\obj\Release\SerializationQuiz.csproj.GenerateResource.Cache
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\obj\Release\SerializationQuiz.csproj.CoreCompileInputs.cache
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\obj\Release\SerializationQuiz.exe
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\obj\Release\SerializationQuiz.pdb

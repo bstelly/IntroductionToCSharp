@@ -9,3 +9,15 @@ C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Seri
 C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\SerializationQuiz\obj\Debug\SerializationQuiz.pdb
 C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\SerializationQuiz\bin\Debug\Newtonsoft.Json.dll
 C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\SerializationQuiz\bin\Debug\Newtonsoft.Json.xml
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\bin\Debug\SerializationQuiz.exe.config
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\bin\Debug\SerializationQuiz.exe
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\bin\Debug\SerializationQuiz.pdb
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\bin\Debug\Newtonsoft.Json.dll
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\bin\Debug\Newtonsoft.Json.xml
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\obj\Debug\SerializationQuiz.csprojResolveAssemblyReference.cache
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\obj\Debug\SerializationQuiz.Form1.resources
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\obj\Debug\SerializationQuiz.Properties.Resources.resources
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\obj\Debug\SerializationQuiz.csproj.GenerateResource.Cache
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\obj\Debug\SerializationQuiz.csproj.CoreCompileInputs.cache
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\obj\Debug\SerializationQuiz.exe
+C:\Users\bstel\Documents\GitHub\Practice-Csharp\SerializationQuiz\obj\Debug\SerializationQuiz.pdb

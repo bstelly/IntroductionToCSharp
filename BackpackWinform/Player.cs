@@ -25,6 +25,7 @@ namespace BackpackWinform
             {
                 item.PickedUp = false;
             }
+            Inventory.Packables.Remove(item);
         }
 
         public Player(Backpack backpack)
