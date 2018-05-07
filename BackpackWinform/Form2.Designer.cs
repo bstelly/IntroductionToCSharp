@@ -348,5 +348,6 @@ namespace BackpackWinform
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip6;
         private System.Windows.Forms.ToolStripMenuItem dropToolStripMenuItem5;
         private Player Player;
+        private MainForm mainForm;
     }
 }

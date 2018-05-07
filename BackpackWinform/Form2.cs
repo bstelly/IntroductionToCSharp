@@ -17,7 +17,8 @@ namespace BackpackWinform
         {
             Player = player;
             InitializeComponent();
-            InvSlots = new List<System.Windows.Forms.PictureBox> {
+            InvSlots = new List<System.Windows.Forms.PictureBox>
+            {
                 packBox1,
                 packBox2,
                 packBox3,
@@ -27,7 +28,8 @@ namespace BackpackWinform
                 packBox7,
                 packBox8,
                 packBox9,
-                packBox10 };
+                packBox10
+            };
 
             for (int i = 0; i < player.Inventory.Packables.Count; i++)
             {
@@ -36,32 +38,39 @@ namespace BackpackWinform
                     InvSlots[i].ImageLocation = player.Inventory.Packables[i].ImageDirectory;
                 }
             }
+
             foreach (IPackable x in player.Inventory.Packables)
             {
                 if (x.ImageDirectory == packBox1.ImageLocation)
                 {
                     toolTip1.SetToolTip(packBox1, x.Name);
                 }
+
                 if (x.ImageDirectory == packBox2.ImageLocation)
                 {
                     toolTip2.SetToolTip(packBox2, x.Name);
                 }
+
                 if (x.ImageDirectory == packBox3.ImageLocation)
                 {
                     toolTip3.SetToolTip(packBox3, x.Name);
                 }
+
                 if (x.ImageDirectory == packBox4.ImageLocation)
                 {
                     toolTip4.SetToolTip(packBox4, x.Name);
                 }
+
                 if (x.ImageDirectory == packBox5.ImageLocation)
                 {
                     toolTip5.SetToolTip(packBox5, x.Name);
                 }
+
                 if (x.ImageDirectory == packBox6.ImageLocation)
                 {
                     toolTip6.SetToolTip(packBox6, x.Name);
                 }
+
                 packBox1.ContextMenuStrip = contextMenuStrip1;
                 packBox2.ContextMenuStrip = contextMenuStrip2;
                 packBox3.ContextMenuStrip = contextMenuStrip3;
@@ -73,45 +82,104 @@ namespace BackpackWinform
 
         private void contextMenuStrip1_MouseClick(object sender, MouseEventArgs e)
         {
-            packBox1.ImageLocation = null;
-            packBox1.ContextMenuStrip = null;
-            Player.Drop(Player.Inventory.Packables[0]);
-            
+            if (packBox1.ImageLocation != null)
+            {
+                for (int i = 0; i < Player.Inventory.Packables.Count; i++)
+                {
+                    if (packBox1.ImageLocation.Contains(Player.Inventory.Packables[i].ImageDirectory))
+                    {
+                        packBox1.ImageLocation = null;
+                        packBox1.ContextMenuStrip = null;
+                        Player.Drop(Player.Inventory.Packables[i]);
+                        break;
+                    }
+                }
+            }
         }
 
         private void contextMenuStrip2_MouseClick(object sender, MouseEventArgs e)
         {
-            packBox2.ImageLocation = null;
-            packBox2.ContextMenuStrip = null;
-            Player.Drop(Player.Inventory.Packables[1]);
+            if (packBox2.ImageLocation != null)
+            {
+                for (int i = 0; i < Player.Inventory.Packables.Count; i++)
+                {
+                    if (packBox2.ImageLocation.Contains(Player.Inventory.Packables[i].ImageDirectory))
+                    {
+                        packBox2.ImageLocation = null;
+                        packBox2.ContextMenuStrip = null;
+                        Player.Drop(Player.Inventory.Packables[i]);
+                        break;
+                    }
+                }
+            }
         }
 
         private void contextMenuStrip3_MouseClick(object sender, MouseEventArgs e)
         {
-            packBox3.ImageLocation = null;
-            packBox3.ContextMenuStrip = null;
-            Player.Drop(Player.Inventory.Packables[2]);
+            if (packBox3.ImageLocation != null)
+            {
+                for (int i = 0; i < Player.Inventory.Packables.Count; i++)
+                {
+                    if (packBox3.ImageLocation.Contains(Player.Inventory.Packables[i].ImageDirectory))
+                    {
+                        packBox3.ImageLocation = null;
+                        packBox3.ContextMenuStrip = null;
+                        Player.Drop(Player.Inventory.Packables[i]);
+                        break;
+                    }
+                }
+            }
         }
 
         private void contextMenuStrip4_MouseClick(object sender, MouseEventArgs e)
         {
-            packBox4.ImageLocation = null;
-            packBox4.ContextMenuStrip = null;
-            Player.Drop(Player.Inventory.Packables[3]);
+            if (packBox1.ImageLocation != null)
+            {
+                for (int i = 0; i < Player.Inventory.Packables.Count; i++)
+                {
+                    if (packBox1.ImageLocation.Contains(Player.Inventory.Packables[i].ImageDirectory))
+                    {
+                        packBox4.ImageLocation = null;
+                        packBox4.ContextMenuStrip = null;
+                        Player.Drop(Player.Inventory.Packables[i]);
+                        break;
+                    }
+                }
+            }
         }
 
         private void contextMenuStrip5_MouseClick(object sender, MouseEventArgs e)
         {
-            packBox5.ImageLocation = null;
-            packBox5.ContextMenuStrip = null;
-            Player.Drop(Player.Inventory.Packables[4]);
+            if (packBox1.ImageLocation != null)
+            {
+                for (int i = 0; i < Player.Inventory.Packables.Count; i++)
+                {
+                    if (packBox5.ImageLocation.Contains(Player.Inventory.Packables[i].ImageDirectory))
+                    {
+                        packBox5.ImageLocation = null;
+                        packBox5.ContextMenuStrip = null;
+                        Player.Drop(Player.Inventory.Packables[i]);
+                        break;
+                    }
+                }
+            }
         }
 
         private void contextMenuStrip6_MouseClick(object sender, MouseEventArgs e)
         {
-            packBox6.ImageLocation = null;
-            packBox6.ContextMenuStrip = null;
-            Player.Drop(Player.Inventory.Packables[5]);
+            if (packBox1.ImageLocation != null)
+            {
+                for (int i = 0; i < Player.Inventory.Packables.Count; i++)
+                {
+                    if (packBox6.ImageLocation.Contains(Player.Inventory.Packables[i].ImageDirectory))
+                    {
+                        packBox6.ImageLocation = null;
+                        packBox6.ContextMenuStrip = null;
+                        Player.Drop(Player.Inventory.Packables[i]);
+                        break;
+                    }
+                }
+            }
         }
     }
 }

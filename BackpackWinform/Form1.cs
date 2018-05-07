@@ -19,7 +19,8 @@ namespace BackpackWinform
             InitializeComponent();
             var playerInventory = new Backpack();
             player = new Player(playerInventory);
-            packables = new List<IPackable> { new HPotion(),
+            packables = new List<IPackable> {
+               new HPotion(),
                new Antidote(),
                new Shield(),
                new BodyArmor(),
@@ -34,23 +35,12 @@ namespace BackpackWinform
 
             InvScreen = new Form2(player);
 
-            var pictures = new List<System.Windows.Forms.PictureBox> {
-            picturePotion,
-            pictureAntidote,
-            pictureShield,
-            pictureVest,
-            pictureGun,
-            pictureKnife };
-
             picturePotion.ContextMenuStrip = contextMenuStrip1;
             pictureAntidote.ContextMenuStrip = contextMenuStrip2;
             pictureShield.ContextMenuStrip = contextMenuStrip3;
             pictureVest.ContextMenuStrip = contextMenuStrip4;
             pictureGun.ContextMenuStrip = contextMenuStrip5;
             pictureKnife.ContextMenuStrip = contextMenuStrip6;
-
-
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -61,6 +51,7 @@ namespace BackpackWinform
                 InvScreen = new Form2(player);
             }
             InvScreen.Show();
+            //Hide();
         }
 
         private void contextMenuStrip1_MouseClick(object sender, MouseEventArgs e)
@@ -109,7 +100,7 @@ namespace BackpackWinform
         private void buttonSave_Click(object sender, EventArgs e)
         {
             var directory = Environment.CurrentDirectory;
-            string json = JsonConvert.SerializeObject(player.Inventory.Packables, Formatting.Indented);
+            var json = JsonConvert.SerializeObject(player.Inventory, Formatting.Indented);
             System.IO.File.WriteAllText(directory + @"\save.json", json);
         }
     }

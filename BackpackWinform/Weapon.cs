@@ -33,7 +33,7 @@ namespace BackpackWinform
         {
             Name = "Beretta 92";
             PickedUp = false;
-            ImageDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName +
+            ImageDirectory = Directory.GetParent(Directory.GetCurrentDirectory()) +
                 @"\pics\beretta92.png";
             AttackValue = 35;
         }
@@ -45,7 +45,7 @@ namespace BackpackWinform
         {
             Name = "Combat Knife";
             PickedUp = false;
-            ImageDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName +
+            ImageDirectory = Directory.GetParent(Directory.GetCurrentDirectory()) +
                 @"\pics\knife.png";
             AttackValue = 10;
         }

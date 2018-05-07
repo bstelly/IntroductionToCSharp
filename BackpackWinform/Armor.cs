@@ -33,7 +33,7 @@ namespace BackpackWinform
         {
             Name = "Shield";
             PickedUp = false;
-            ImageDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName +
+            ImageDirectory = Directory.GetParent(Directory.GetCurrentDirectory()) +
                 @"\pics\shield.png";
             Defense = 10;
         }
@@ -46,7 +46,7 @@ namespace BackpackWinform
         {
             Name = "Body Armor";
             PickedUp = false;
-            ImageDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName +
+            ImageDirectory = Directory.GetParent(Directory.GetCurrentDirectory()) +
                 @"\pics\KevlarVest.png";
             Defense = 15;
 

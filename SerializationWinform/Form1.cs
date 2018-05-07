@@ -58,7 +58,6 @@ namespace SerializationWinform
 
         }
 
-
         private void NextDialogue_Click(object sender, EventArgs e)
         {
             if (!display.Text.Contains(dialogue.DialogueRoot[dialogue.DialogueRoot.Count - 1]
@@ -68,20 +67,25 @@ namespace SerializationWinform
                 {
                     for (int j = 0; j < dialogue.DialogueRoot[i].DialogueNode.Count; j++)
                     {
-                        if (display.Text.Contains(dialogue.DialogueRoot[i].DialogueNode[j].Line))
+                        if (display.Text ==
+                            dialogue.DialogueRoot[i].DialogueNode[j].ConversationID + ", " +
+                            dialogue.DialogueRoot[i].DialogueNode[j].ParticipantName + ", " +
+                            dialogue.DialogueRoot[i].DialogueNode[j].EmoteType + ":  " +
+                            dialogue.DialogueRoot[i].DialogueNode[j].Line
+                            )
                         {
                             if (dialogue.DialogueRoot[i].DialogueNode.Count == j + 1)
                             {
-                                display.Text = dialogue.DialogueRoot[i + 1].DialogueNode[0].ConversationID + ",  ";
-                                display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].ParticipantName + ",  ";
-                                display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].EmoteType + ",  ";
+                                display.Text = dialogue.DialogueRoot[i + 1].DialogueNode[0].ConversationID + ", ";
+                                display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].ParticipantName + ", ";
+                                display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].EmoteType + ":  ";
                                 display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].Line;
                                 return;
                             }
 
-                            display.Text = dialogue.DialogueRoot[i].DialogueNode[j + 1].ConversationID + ",  ";
-                            display.Text += dialogue.DialogueRoot[i].DialogueNode[j + 1].ParticipantName + ",  ";
-                            display.Text += dialogue.DialogueRoot[i].DialogueNode[j + 1].EmoteType + ",  ";
+                            display.Text = dialogue.DialogueRoot[i].DialogueNode[j + 1].ConversationID + ", ";
+                            display.Text += dialogue.DialogueRoot[i].DialogueNode[j + 1].ParticipantName + ", ";
+                            display.Text += dialogue.DialogueRoot[i].DialogueNode[j + 1].EmoteType + ":  ";
                             display.Text += dialogue.DialogueRoot[i].DialogueNode[j + 1].Line;
                             return;
                         }
@@ -97,7 +101,7 @@ namespace SerializationWinform
             string partName = grid.SelectedRows[0].Cells[1].Value + string.Empty;
             string emote = grid.SelectedRows[0].Cells[2].Value + string.Empty;
             string line = grid.SelectedRows[0].Cells[4].Value + string.Empty;
-            display.Text = convID + ",  " + partName + ",  " + emote + ",  " + line;
+            display.Text = convID + ", " + partName + ", " + emote + ":  " + line;
         }
 
         private void grid_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -114,18 +118,13 @@ namespace SerializationWinform
             {
                 for (int j = 0; j < dialogue.DialogueRoot[i].DialogueNode.Count; j++)
                 {
-                    if (display.Text.Contains(dialogue.DialogueRoot[i].DialogueNode[j].Line))
+                    if (display.Text.Contains(dialogue.DialogueRoot[i].DialogueNode[j].Line) && i > 0)
                     {
-                        {
-                            if (i > 0)
-                            {
-                                display.Text = dialogue.DialogueRoot[i - 1].DialogueNode[0].ConversationID + ",  ";
-                                display.Text += dialogue.DialogueRoot[i - 1].DialogueNode[0].ParticipantName + ",  ";
-                                display.Text += dialogue.DialogueRoot[i - 1].DialogueNode[0].EmoteType + ",  ";
-                                display.Text += dialogue.DialogueRoot[i - 1].DialogueNode[0].Line;
-                                return;
-                            }
-                        }
+                        display.Text = dialogue.DialogueRoot[i - 1].DialogueNode[0].ConversationID + ", ";
+                        display.Text += dialogue.DialogueRoot[i - 1].DialogueNode[0].ParticipantName + ", ";
+                        display.Text += dialogue.DialogueRoot[i - 1].DialogueNode[0].EmoteType + ":  ";
+                        display.Text += dialogue.DialogueRoot[i - 1].DialogueNode[0].Line;
+                        return;
                     }
                 }
             }
@@ -137,16 +136,14 @@ namespace SerializationWinform
             {
                 for (int j = 0; j < dialogue.DialogueRoot[i].DialogueNode.Count; j++)
                 {
-                    if (display.Text.Contains(dialogue.DialogueRoot[i].DialogueNode[j].Line))
+                    if (display.Text.Contains(dialogue.DialogueRoot[i].DialogueNode[j].Line) &&
+                        i < dialogue.DialogueRoot.Count - 1)
                     {
-                        if (i < dialogue.DialogueRoot.Count - 1)
-                        {
-                            display.Text = dialogue.DialogueRoot[i + 1].DialogueNode[0].ConversationID + ",  ";
-                            display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].ParticipantName + ",  ";
-                            display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].EmoteType + ",  ";
-                            display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].Line;
-                            return;
-                        }
+                        display.Text = dialogue.DialogueRoot[i + 1].DialogueNode[0].ConversationID + ", ";
+                        display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].ParticipantName + ", ";
+                        display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].EmoteType + ":  ";
+                        display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].Line;
+                        return;
                     }
                 }
             }

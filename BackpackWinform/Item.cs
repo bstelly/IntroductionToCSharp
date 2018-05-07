@@ -49,7 +49,7 @@ namespace BackpackWinform
             PickedUp = false;
             Cure = false;
             Heal = 50;
-            ImageDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName +
+            ImageDirectory = Directory.GetParent(Directory.GetCurrentDirectory()) +
                 @"\pics\potion.png";
         }
 
@@ -62,7 +62,7 @@ namespace BackpackWinform
             PickedUp = false;
             Cure = true;
             Heal = 0;
-            ImageDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName +
+            ImageDirectory = Directory.GetParent(Directory.GetCurrentDirectory()) +
                 @"\pics\antidote.png";
         }
     }
