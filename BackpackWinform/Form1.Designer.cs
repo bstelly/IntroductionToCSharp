@@ -290,6 +290,7 @@ namespace BackpackWinform
         private System.Windows.Forms.PictureBox pictureVest;
         private Form2 InvScreen;
         private Player player;
+        private List<System.Windows.Forms.PictureBox> m_Pictures;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem dropToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
@@ -303,6 +304,22 @@ namespace BackpackWinform
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip6;
         private System.Windows.Forms.ToolStripMenuItem pickUpToolStripMenuItem4;
         private System.Windows.Forms.Button buttonSave;
+        public void CheckRoomInventory()
+        {
+            foreach (var item in packables)
+            {
+                if (item.PickedUp == false)
+                {
+                    foreach (var picture in m_Pictures)
+                    {
+                        if (picture.ImageLocation == item.ImageDirectory)
+                        {
+                            picture.Show();
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 

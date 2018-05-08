@@ -13,8 +13,10 @@ namespace BackpackWinform
 {
     public partial class Form2 : Form
     {
-        public Form2(Player player)
+        private MainForm m_ParentForm;
+        public Form2(Player player, MainForm parentForm)
         {
+            m_ParentForm = parentForm;
             Player = player;
             InitializeComponent();
             InvSlots = new List<System.Windows.Forms.PictureBox>
@@ -90,6 +92,7 @@ namespace BackpackWinform
                     {
                         packBox1.ImageLocation = null;
                         packBox1.ContextMenuStrip = null;
+                        Player.Inventory.Packables[i].PickedUp = false;
                         Player.Drop(Player.Inventory.Packables[i]);
                         break;
                     }
@@ -107,6 +110,7 @@ namespace BackpackWinform
                     {
                         packBox2.ImageLocation = null;
                         packBox2.ContextMenuStrip = null;
+                        Player.Inventory.Packables[i].PickedUp = false;
                         Player.Drop(Player.Inventory.Packables[i]);
                         break;
                     }
@@ -124,6 +128,7 @@ namespace BackpackWinform
                     {
                         packBox3.ImageLocation = null;
                         packBox3.ContextMenuStrip = null;
+                        Player.Inventory.Packables[i].PickedUp = false;
                         Player.Drop(Player.Inventory.Packables[i]);
                         break;
                     }
@@ -133,14 +138,15 @@ namespace BackpackWinform
 
         private void contextMenuStrip4_MouseClick(object sender, MouseEventArgs e)
         {
-            if (packBox1.ImageLocation != null)
+            if (packBox4.ImageLocation != null)
             {
                 for (int i = 0; i < Player.Inventory.Packables.Count; i++)
                 {
-                    if (packBox1.ImageLocation.Contains(Player.Inventory.Packables[i].ImageDirectory))
+                    if (packBox4.ImageLocation.Contains(Player.Inventory.Packables[i].ImageDirectory))
                     {
                         packBox4.ImageLocation = null;
                         packBox4.ContextMenuStrip = null;
+                        Player.Inventory.Packables[i].PickedUp = false;
                         Player.Drop(Player.Inventory.Packables[i]);
                         break;
                     }
@@ -150,7 +156,7 @@ namespace BackpackWinform
 
         private void contextMenuStrip5_MouseClick(object sender, MouseEventArgs e)
         {
-            if (packBox1.ImageLocation != null)
+            if (packBox5.ImageLocation != null)
             {
                 for (int i = 0; i < Player.Inventory.Packables.Count; i++)
                 {
@@ -158,6 +164,7 @@ namespace BackpackWinform
                     {
                         packBox5.ImageLocation = null;
                         packBox5.ContextMenuStrip = null;
+                        Player.Inventory.Packables[i].PickedUp = false;
                         Player.Drop(Player.Inventory.Packables[i]);
                         break;
                     }
@@ -167,7 +174,7 @@ namespace BackpackWinform
 
         private void contextMenuStrip6_MouseClick(object sender, MouseEventArgs e)
         {
-            if (packBox1.ImageLocation != null)
+            if (packBox6.ImageLocation != null)
             {
                 for (int i = 0; i < Player.Inventory.Packables.Count; i++)
                 {
@@ -175,11 +182,20 @@ namespace BackpackWinform
                     {
                         packBox6.ImageLocation = null;
                         packBox6.ContextMenuStrip = null;
+                        Player.Inventory.Packables[i].PickedUp = false;
                         Player.Drop(Player.Inventory.Packables[i]);
                         break;
                     }
                 }
             }
+        }
+
+
+
+        private void Form2_FormClosed_1(object sender, FormClosedEventArgs e)
+        {
+            m_ParentForm.CheckRoomInventory();
+            m_ParentForm.Show();
         }
     }
 }

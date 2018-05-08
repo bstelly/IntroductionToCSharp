@@ -48,16 +48,16 @@ namespace BackpackWinform
             this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip6 = new System.Windows.Forms.ToolTip(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip4 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip5 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip6 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.dropToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.dropToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.dropToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip4 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.dropToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip5 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.dropToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip6 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.dropToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.packBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.packBox2)).BeginInit();
@@ -80,30 +80,27 @@ namespace BackpackWinform
             // packBox1
             // 
             this.packBox1.BackColor = System.Drawing.Color.Gray;
-            this.packBox1.Location = new System.Drawing.Point(16, 36);
-            this.packBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.packBox1.Location = new System.Drawing.Point(12, 29);
             this.packBox1.Name = "packBox1";
-            this.packBox1.Size = new System.Drawing.Size(167, 154);
+            this.packBox1.Size = new System.Drawing.Size(125, 125);
             this.packBox1.TabIndex = 0;
             this.packBox1.TabStop = false;
             // 
             // packBox2
             // 
             this.packBox2.BackColor = System.Drawing.Color.Gray;
-            this.packBox2.Location = new System.Drawing.Point(191, 36);
-            this.packBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.packBox2.Location = new System.Drawing.Point(143, 29);
             this.packBox2.Name = "packBox2";
-            this.packBox2.Size = new System.Drawing.Size(167, 154);
+            this.packBox2.Size = new System.Drawing.Size(125, 125);
             this.packBox2.TabIndex = 1;
             this.packBox2.TabStop = false;
             // 
             // packBox3
             // 
             this.packBox3.BackColor = System.Drawing.Color.Gray;
-            this.packBox3.Location = new System.Drawing.Point(365, 36);
-            this.packBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.packBox3.Location = new System.Drawing.Point(274, 29);
             this.packBox3.Name = "packBox3";
-            this.packBox3.Size = new System.Drawing.Size(167, 154);
+            this.packBox3.Size = new System.Drawing.Size(125, 125);
             this.packBox3.TabIndex = 2;
             this.packBox3.TabStop = false;
             // 
@@ -111,10 +108,9 @@ namespace BackpackWinform
             // 
             this.packBox4.BackColor = System.Drawing.Color.Gray;
             this.packBox4.ImageLocation = "";
-            this.packBox4.Location = new System.Drawing.Point(540, 36);
-            this.packBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.packBox4.Location = new System.Drawing.Point(405, 29);
             this.packBox4.Name = "packBox4";
-            this.packBox4.Size = new System.Drawing.Size(167, 154);
+            this.packBox4.Size = new System.Drawing.Size(125, 125);
             this.packBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.packBox4.TabIndex = 3;
             this.packBox4.TabStop = false;
@@ -122,60 +118,54 @@ namespace BackpackWinform
             // packBox6
             // 
             this.packBox6.BackColor = System.Drawing.Color.Gray;
-            this.packBox6.Location = new System.Drawing.Point(16, 230);
-            this.packBox6.Margin = new System.Windows.Forms.Padding(4);
+            this.packBox6.Location = new System.Drawing.Point(12, 187);
             this.packBox6.Name = "packBox6";
-            this.packBox6.Size = new System.Drawing.Size(167, 154);
+            this.packBox6.Size = new System.Drawing.Size(125, 125);
             this.packBox6.TabIndex = 5;
             this.packBox6.TabStop = false;
             // 
             // packBox7
             // 
             this.packBox7.BackColor = System.Drawing.Color.Gray;
-            this.packBox7.Location = new System.Drawing.Point(191, 230);
-            this.packBox7.Margin = new System.Windows.Forms.Padding(4);
+            this.packBox7.Location = new System.Drawing.Point(143, 187);
             this.packBox7.Name = "packBox7";
-            this.packBox7.Size = new System.Drawing.Size(167, 154);
+            this.packBox7.Size = new System.Drawing.Size(125, 125);
             this.packBox7.TabIndex = 6;
             this.packBox7.TabStop = false;
             // 
             // packBox8
             // 
             this.packBox8.BackColor = System.Drawing.Color.Gray;
-            this.packBox8.Location = new System.Drawing.Point(365, 230);
-            this.packBox8.Margin = new System.Windows.Forms.Padding(4);
+            this.packBox8.Location = new System.Drawing.Point(274, 187);
             this.packBox8.Name = "packBox8";
-            this.packBox8.Size = new System.Drawing.Size(167, 154);
+            this.packBox8.Size = new System.Drawing.Size(125, 125);
             this.packBox8.TabIndex = 7;
             this.packBox8.TabStop = false;
             // 
             // packBox9
             // 
             this.packBox9.BackColor = System.Drawing.Color.Gray;
-            this.packBox9.Location = new System.Drawing.Point(540, 230);
-            this.packBox9.Margin = new System.Windows.Forms.Padding(4);
+            this.packBox9.Location = new System.Drawing.Point(405, 187);
             this.packBox9.Name = "packBox9";
-            this.packBox9.Size = new System.Drawing.Size(167, 154);
+            this.packBox9.Size = new System.Drawing.Size(125, 125);
             this.packBox9.TabIndex = 8;
             this.packBox9.TabStop = false;
             // 
             // packBox10
             // 
             this.packBox10.BackColor = System.Drawing.Color.Gray;
-            this.packBox10.Location = new System.Drawing.Point(716, 230);
-            this.packBox10.Margin = new System.Windows.Forms.Padding(4);
+            this.packBox10.Location = new System.Drawing.Point(537, 187);
             this.packBox10.Name = "packBox10";
-            this.packBox10.Size = new System.Drawing.Size(167, 154);
+            this.packBox10.Size = new System.Drawing.Size(125, 125);
             this.packBox10.TabIndex = 9;
             this.packBox10.TabStop = false;
             // 
             // packBox5
             // 
             this.packBox5.BackColor = System.Drawing.Color.Gray;
-            this.packBox5.Location = new System.Drawing.Point(716, 36);
-            this.packBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.packBox5.Location = new System.Drawing.Point(537, 29);
             this.packBox5.Name = "packBox5";
-            this.packBox5.Size = new System.Drawing.Size(167, 154);
+            this.packBox5.Size = new System.Drawing.Size(125, 125);
             this.packBox5.TabIndex = 10;
             this.packBox5.TabStop = false;
             // 
@@ -185,8 +175,14 @@ namespace BackpackWinform
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dropToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(113, 28);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(101, 26);
             this.contextMenuStrip1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip1_MouseClick);
+            // 
+            // dropToolStripMenuItem
+            // 
+            this.dropToolStripMenuItem.Name = "dropToolStripMenuItem";
+            this.dropToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.dropToolStripMenuItem.Text = "Drop";
             // 
             // contextMenuStrip2
             // 
@@ -194,8 +190,14 @@ namespace BackpackWinform
             this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dropToolStripMenuItem1});
             this.contextMenuStrip2.Name = "contextMenuStrip2";
-            this.contextMenuStrip2.Size = new System.Drawing.Size(113, 28);
+            this.contextMenuStrip2.Size = new System.Drawing.Size(101, 26);
             this.contextMenuStrip2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip2_MouseClick);
+            // 
+            // dropToolStripMenuItem1
+            // 
+            this.dropToolStripMenuItem1.Name = "dropToolStripMenuItem1";
+            this.dropToolStripMenuItem1.Size = new System.Drawing.Size(100, 22);
+            this.dropToolStripMenuItem1.Text = "Drop";
             // 
             // contextMenuStrip3
             // 
@@ -203,8 +205,14 @@ namespace BackpackWinform
             this.contextMenuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dropToolStripMenuItem2});
             this.contextMenuStrip3.Name = "contextMenuStrip3";
-            this.contextMenuStrip3.Size = new System.Drawing.Size(113, 28);
+            this.contextMenuStrip3.Size = new System.Drawing.Size(101, 26);
             this.contextMenuStrip3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip3_MouseClick);
+            // 
+            // dropToolStripMenuItem2
+            // 
+            this.dropToolStripMenuItem2.Name = "dropToolStripMenuItem2";
+            this.dropToolStripMenuItem2.Size = new System.Drawing.Size(100, 22);
+            this.dropToolStripMenuItem2.Text = "Drop";
             // 
             // contextMenuStrip4
             // 
@@ -212,8 +220,14 @@ namespace BackpackWinform
             this.contextMenuStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dropToolStripMenuItem3});
             this.contextMenuStrip4.Name = "contextMenuStrip4";
-            this.contextMenuStrip4.Size = new System.Drawing.Size(113, 28);
+            this.contextMenuStrip4.Size = new System.Drawing.Size(101, 26);
             this.contextMenuStrip4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip4_MouseClick);
+            // 
+            // dropToolStripMenuItem3
+            // 
+            this.dropToolStripMenuItem3.Name = "dropToolStripMenuItem3";
+            this.dropToolStripMenuItem3.Size = new System.Drawing.Size(100, 22);
+            this.dropToolStripMenuItem3.Text = "Drop";
             // 
             // contextMenuStrip5
             // 
@@ -221,8 +235,14 @@ namespace BackpackWinform
             this.contextMenuStrip5.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dropToolStripMenuItem4});
             this.contextMenuStrip5.Name = "contextMenuStrip5";
-            this.contextMenuStrip5.Size = new System.Drawing.Size(113, 28);
+            this.contextMenuStrip5.Size = new System.Drawing.Size(101, 26);
             this.contextMenuStrip5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip5_MouseClick);
+            // 
+            // dropToolStripMenuItem4
+            // 
+            this.dropToolStripMenuItem4.Name = "dropToolStripMenuItem4";
+            this.dropToolStripMenuItem4.Size = new System.Drawing.Size(100, 22);
+            this.dropToolStripMenuItem4.Text = "Drop";
             // 
             // contextMenuStrip6
             // 
@@ -230,51 +250,21 @@ namespace BackpackWinform
             this.contextMenuStrip6.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dropToolStripMenuItem5});
             this.contextMenuStrip6.Name = "contextMenuStrip6";
-            this.contextMenuStrip6.Size = new System.Drawing.Size(176, 56);
+            this.contextMenuStrip6.Size = new System.Drawing.Size(101, 26);
             this.contextMenuStrip6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip6_MouseClick);
-            // 
-            // dropToolStripMenuItem
-            // 
-            this.dropToolStripMenuItem.Name = "dropToolStripMenuItem";
-            this.dropToolStripMenuItem.Size = new System.Drawing.Size(112, 24);
-            this.dropToolStripMenuItem.Text = "Drop";
-            // 
-            // dropToolStripMenuItem1
-            // 
-            this.dropToolStripMenuItem1.Name = "dropToolStripMenuItem1";
-            this.dropToolStripMenuItem1.Size = new System.Drawing.Size(112, 24);
-            this.dropToolStripMenuItem1.Text = "Drop";
-            // 
-            // dropToolStripMenuItem2
-            // 
-            this.dropToolStripMenuItem2.Name = "dropToolStripMenuItem2";
-            this.dropToolStripMenuItem2.Size = new System.Drawing.Size(112, 24);
-            this.dropToolStripMenuItem2.Text = "Drop";
-            // 
-            // dropToolStripMenuItem3
-            // 
-            this.dropToolStripMenuItem3.Name = "dropToolStripMenuItem3";
-            this.dropToolStripMenuItem3.Size = new System.Drawing.Size(112, 24);
-            this.dropToolStripMenuItem3.Text = "Drop";
-            // 
-            // dropToolStripMenuItem4
-            // 
-            this.dropToolStripMenuItem4.Name = "dropToolStripMenuItem4";
-            this.dropToolStripMenuItem4.Size = new System.Drawing.Size(175, 24);
-            this.dropToolStripMenuItem4.Text = "Drop";
             // 
             // dropToolStripMenuItem5
             // 
             this.dropToolStripMenuItem5.Name = "dropToolStripMenuItem5";
-            this.dropToolStripMenuItem5.Size = new System.Drawing.Size(112, 24);
+            this.dropToolStripMenuItem5.Size = new System.Drawing.Size(100, 22);
             this.dropToolStripMenuItem5.Text = "Drop";
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
-            this.ClientSize = new System.Drawing.Size(896, 418);
+            this.ClientSize = new System.Drawing.Size(674, 347);
             this.Controls.Add(this.packBox5);
             this.Controls.Add(this.packBox10);
             this.Controls.Add(this.packBox9);
@@ -285,12 +275,12 @@ namespace BackpackWinform
             this.Controls.Add(this.packBox3);
             this.Controls.Add(this.packBox2);
             this.Controls.Add(this.packBox1);
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.MaximumSize = new System.Drawing.Size(914, 465);
-            this.MinimumSize = new System.Drawing.Size(914, 465);
+            this.MaximumSize = new System.Drawing.Size(690, 385);
+            this.MinimumSize = new System.Drawing.Size(690, 385);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed_1);
             ((System.ComponentModel.ISupportInitialize)(this.packBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.packBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.packBox3)).EndInit();

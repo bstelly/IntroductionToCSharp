@@ -14,9 +14,19 @@ namespace BackpackWinform
 {
     public partial class MainForm : Form
     {
+
         public MainForm()
         {
             InitializeComponent();
+            m_Pictures = new List<System.Windows.Forms.PictureBox>
+            {
+                picturePotion,
+                pictureAntidote,
+                pictureShield,
+                pictureVest,
+                pictureGun,
+                pictureKnife
+            };
             var playerInventory = new Backpack();
             player = new Player(playerInventory);
             packables = new List<IPackable> {
@@ -33,7 +43,7 @@ namespace BackpackWinform
             pictureGun.ImageLocation = packables[4].ImageDirectory;
             pictureKnife.ImageLocation = packables[5].ImageDirectory;
 
-            InvScreen = new Form2(player);
+            InvScreen = new Form2(player, this);
 
             picturePotion.ContextMenuStrip = contextMenuStrip1;
             pictureAntidote.ContextMenuStrip = contextMenuStrip2;
@@ -48,10 +58,10 @@ namespace BackpackWinform
             if (InvScreen != null)
             {
                 InvScreen.Hide();
-                InvScreen = new Form2(player);
+                InvScreen = new Form2(player, this);
             }
             InvScreen.Show();
-            //Hide();
+            Hide();
         }
 
         private void contextMenuStrip1_MouseClick(object sender, MouseEventArgs e)
