@@ -10,10 +10,6 @@ namespace BackpackWinform
     {
         public List<IPackable> Packables;
 
-        public Backpack(List<IPackable> packablesList)
-        {
-            Packables = packablesList;
-        }
         public Backpack()
         {
             Packables = new List<IPackable>();

@@ -1,16 +1,3 @@
 {
-  "Packables": [
-    {
-      "Name": "Combat Knife",
-      "PickedUp": true,
-      "ImageDirectory": "C:\\Users\\s178022\\Documents\\Visual Studio 2015\\Projects\\IntroductionToCSharp\\BackpackWinform\\bin\\pics\\knife.png",
-      "AttackValue": 10
-    },
-    {
-      "Name": "Body Armor",
-      "PickedUp": true,
-      "ImageDirectory": "C:\\Users\\s178022\\Documents\\Visual Studio 2015\\Projects\\IntroductionToCSharp\\BackpackWinform\\bin\\pics\\KevlarVest.png",
-      "Defense": 15
-    }
-  ]
+  "Packables": []
 }
