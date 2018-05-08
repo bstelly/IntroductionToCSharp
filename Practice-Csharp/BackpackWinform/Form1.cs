@@ -5,7 +5,6 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using Newtonsoft.Json;
@@ -66,45 +65,62 @@ namespace BackpackWinform
 
         private void contextMenuStrip1_MouseClick(object sender, MouseEventArgs e)
         {
-            picturePotion.Visible = false;
-            packables[0].PickedUp = true;
-            player.Inventory.Packables.Add(packables[0]);
+            if (e.Button == MouseButtons.Left)
+            {
+                picturePotion.Visible = false;
+                packables[0].PickedUp = true;
+                player.Inventory.Packables.Add(packables[0]);
+            }
         }
 
         private void contextMenuStrip2_MouseClick(object sender, MouseEventArgs e)
         {
-            pictureAntidote.Visible = false;
-            packables[1].PickedUp = true;
-            player.Inventory.Packables.Add(packables[1]);
+            if (e.Button == MouseButtons.Left)
+            {
+                pictureAntidote.Visible = false;
+                packables[1].PickedUp = true;
+                player.Inventory.Packables.Add(packables[1]);
+            }
         }
 
         private void contextMenuStrip3_MouseClick(object sender, MouseEventArgs e)
         {
-            pictureShield.Visible = false;
-            packables[2].PickedUp = true;
-            player.Inventory.Packables.Add(packables[2]);
+            if (e.Button == MouseButtons.Left)
+            {
+                pictureShield.Visible = false;
+                packables[2].PickedUp = true;
+                player.Inventory.Packables.Add(packables[2]);
+            }
         }
 
         private void contextMenuStrip4_MouseClick(object sender, MouseEventArgs e)
         {
-            pictureVest.Visible = false;
-            packables[3].PickedUp = true;
-            player.Inventory.Packables.Add(packables[3]);
-
+            if (e.Button == MouseButtons.Left)
+            {
+                pictureVest.Visible = false;
+                packables[3].PickedUp = true;
+                player.Inventory.Packables.Add(packables[3]);
+            }
         }
 
         private void contextMenuStrip5_MouseClick(object sender, MouseEventArgs e)
         {
-            pictureGun.Visible = false;
-            packables[4].PickedUp = true;
-            player.Inventory.Packables.Add(packables[4]);
+            if (e.Button == MouseButtons.Left)
+            {
+                pictureGun.Visible = false;
+                packables[4].PickedUp = true;
+                player.Inventory.Packables.Add(packables[4]);
+            }
         }
 
         private void contextMenuStrip6_MouseClick(object sender, MouseEventArgs e)
         {
-            pictureKnife.Visible = false;
-            packables[5].PickedUp = true;
-            player.Inventory.Packables.Add(packables[5]);
+            if (e.Button == MouseButtons.Left)
+            {
+                pictureKnife.Visible = false;
+                packables[5].PickedUp = true;
+                player.Inventory.Packables.Add(packables[5]);
+            }
         }
 
         private void buttonSave_Click(object sender, EventArgs e)

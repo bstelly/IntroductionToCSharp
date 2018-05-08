@@ -1,0 +1,9 @@
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\bin\Release\BackpackUsingDLL.exe.config
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\bin\Release\BackpackUsingDLL.exe
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\bin\Release\BackpackUsingDLL.pdb
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\bin\Release\BackpackWinform.dll
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\obj\Release\BackpackUsingDLL.Form1.resources
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\obj\Release\BackpackUsingDLL.Properties.Resources.resources
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\obj\Release\BackpackUsingDLL.csproj.GenerateResource.Cache
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\obj\Release\BackpackUsingDLL.exe
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\obj\Release\BackpackUsingDLL.pdb

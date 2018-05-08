@@ -1,0 +1,12 @@
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\bin\Debug\BackpackUsingDLL.exe.config
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\bin\Debug\BackpackUsingDLL.exe
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\bin\Debug\BackpackUsingDLL.pdb
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\bin\Debug\BackpackWinform.dll
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\obj\Debug\BackpackUsingDLL.csprojResolveAssemblyReference.cache
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\obj\Debug\BackpackUsingDLL.Properties.Resources.resources
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\obj\Debug\BackpackUsingDLL.csproj.GenerateResource.Cache
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\obj\Debug\BackpackUsingDLL.exe
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\obj\Debug\BackpackUsingDLL.pdb
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\obj\Debug\BackpackUsingDLL.Form1.resources
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\BackpackUsingDLL\bin\Debug\Newtonsoft.Json.xml
