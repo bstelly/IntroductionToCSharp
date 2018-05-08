@@ -11,3 +11,15 @@ C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\obj\Release\Back
 C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\obj\Release\BackpackWinform.csproj.CoreCompileInputs.cache
 C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\obj\Release\BackpackWinform.exe
 C:\Users\bstel\Documents\GitHub\Practice-Csharp\BackpackWinform\obj\Release\BackpackWinform.pdb
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\BackpackWinform\bin\Release\BackpackWinform.exe.config
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\BackpackWinform\bin\Release\BackpackWinform.exe
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\BackpackWinform\bin\Release\BackpackWinform.pdb
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\BackpackWinform\bin\Release\Newtonsoft.Json.dll
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\BackpackWinform\bin\Release\Newtonsoft.Json.xml
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\BackpackWinform\obj\Release\BackpackWinform.csprojResolveAssemblyReference.cache
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\BackpackWinform\obj\Release\BackpackWinform.MainForm.resources
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\BackpackWinform\obj\Release\BackpackWinform.Form2.resources
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\BackpackWinform\obj\Release\BackpackWinform.Properties.Resources.resources
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\BackpackWinform\obj\Release\BackpackWinform.csproj.GenerateResource.Cache
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\BackpackWinform\obj\Release\BackpackWinform.exe
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\BackpackWinform\obj\Release\BackpackWinform.pdb
