@@ -70,23 +70,26 @@ namespace SerializationWinform
                         if (display.Text ==
                             dialogue.DialogueRoot[i].DialogueNode[j].ConversationID + ", " +
                             dialogue.DialogueRoot[i].DialogueNode[j].ParticipantName + ", " +
-                            dialogue.DialogueRoot[i].DialogueNode[j].EmoteType + ":  " +
-                            dialogue.DialogueRoot[i].DialogueNode[j].Line
+                            dialogue.DialogueRoot[i].DialogueNode[j].EmoteType + ":" +
+                            Environment.NewLine + 
+                            "\"" + dialogue.DialogueRoot[i].DialogueNode[j].Line + "\""
                             )
                         {
                             if (dialogue.DialogueRoot[i].DialogueNode.Count == j + 1)
                             {
                                 display.Text = dialogue.DialogueRoot[i + 1].DialogueNode[0].ConversationID + ", ";
                                 display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].ParticipantName + ", ";
-                                display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].EmoteType + ":  ";
-                                display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].Line;
+                                display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].EmoteType + ":";
+                                display.Text += Environment.NewLine;
+                                display.Text += "\"" + dialogue.DialogueRoot[i + 1].DialogueNode[0].Line + "\"";
                                 return;
                             }
 
                             display.Text = dialogue.DialogueRoot[i].DialogueNode[j + 1].ConversationID + ", ";
                             display.Text += dialogue.DialogueRoot[i].DialogueNode[j + 1].ParticipantName + ", ";
-                            display.Text += dialogue.DialogueRoot[i].DialogueNode[j + 1].EmoteType + ":  ";
-                            display.Text += dialogue.DialogueRoot[i].DialogueNode[j + 1].Line;
+                            display.Text += dialogue.DialogueRoot[i].DialogueNode[j + 1].EmoteType + ":";
+                            display.Text += Environment.NewLine;
+                            display.Text += "\"" + dialogue.DialogueRoot[i].DialogueNode[j + 1].Line + "\"";
                             return;
                         }
                     }
@@ -101,7 +104,8 @@ namespace SerializationWinform
             string partName = grid.SelectedRows[0].Cells[1].Value + string.Empty;
             string emote = grid.SelectedRows[0].Cells[2].Value + string.Empty;
             string line = grid.SelectedRows[0].Cells[4].Value + string.Empty;
-            display.Text = convID + ", " + partName + ", " + emote + ":  " + line;
+            display.Text = convID + ", " + partName + ", " + emote + ":" +
+                           Environment.NewLine + "\"" + line + "\"";
         }
 
         private void grid_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -122,8 +126,9 @@ namespace SerializationWinform
                     {
                         display.Text = dialogue.DialogueRoot[i - 1].DialogueNode[0].ConversationID + ", ";
                         display.Text += dialogue.DialogueRoot[i - 1].DialogueNode[0].ParticipantName + ", ";
-                        display.Text += dialogue.DialogueRoot[i - 1].DialogueNode[0].EmoteType + ":  ";
-                        display.Text += dialogue.DialogueRoot[i - 1].DialogueNode[0].Line;
+                        display.Text += dialogue.DialogueRoot[i - 1].DialogueNode[0].EmoteType + ":";
+                        display.Text += Environment.NewLine;
+                        display.Text += "\"" + dialogue.DialogueRoot[i - 1].DialogueNode[0].Line + "\"";
                         return;
                     }
                 }
@@ -141,8 +146,9 @@ namespace SerializationWinform
                     {
                         display.Text = dialogue.DialogueRoot[i + 1].DialogueNode[0].ConversationID + ", ";
                         display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].ParticipantName + ", ";
-                        display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].EmoteType + ":  ";
-                        display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].Line;
+                        display.Text += dialogue.DialogueRoot[i + 1].DialogueNode[0].EmoteType + ":";
+                        display.Text += Environment.NewLine;
+                        display.Text += "\"" + dialogue.DialogueRoot[i + 1].DialogueNode[0].Line + "\"";
                         return;
                     }
                 }
