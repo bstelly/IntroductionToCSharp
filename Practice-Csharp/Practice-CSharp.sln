@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackpackWinform", "Backpack
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackpackUsingDLL", "BackpackUsingDLL\BackpackUsingDLL.csproj", "{973EAE47-6665-4F8B-8AE0-D63C77E25B91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Button", "Button\Button.csproj", "{48C09EF3-9283-4281-8B02-2462ED891FDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{973EAE47-6665-4F8B-8AE0-D63C77E25B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{973EAE47-6665-4F8B-8AE0-D63C77E25B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{973EAE47-6665-4F8B-8AE0-D63C77E25B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C09EF3-9283-4281-8B02-2462ED891FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C09EF3-9283-4281-8B02-2462ED891FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C09EF3-9283-4281-8B02-2462ED891FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C09EF3-9283-4281-8B02-2462ED891FDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

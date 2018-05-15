@@ -71,7 +71,7 @@ namespace SerializationWinform
                             dialogue.DialogueRoot[i].DialogueNode[j].ConversationID + ", " +
                             dialogue.DialogueRoot[i].DialogueNode[j].ParticipantName + ", " +
                             dialogue.DialogueRoot[i].DialogueNode[j].EmoteType + ":" +
-                            Environment.NewLine + 
+                            Environment.NewLine +
                             "\"" + dialogue.DialogueRoot[i].DialogueNode[j].Line + "\""
                             )
                         {
@@ -110,7 +110,7 @@ namespace SerializationWinform
 
         private void grid_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (grid.SelectedCells.Count == 1)
+            if (grid.SelectedCells.Count == 1 && e.RowIndex != -1)
             {
                 display.Text = grid.Rows[e.RowIndex].Cells[e.ColumnIndex].Value + string.Empty;
             }

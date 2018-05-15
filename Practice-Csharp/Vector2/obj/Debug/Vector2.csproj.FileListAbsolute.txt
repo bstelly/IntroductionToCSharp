@@ -7,3 +7,6 @@ c:\users\s178022\documents\visual studio 2015\Projects\IntroductionToCSharp\Vect
 C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\Vector2\bin\Debug\Vector2.exe.config
 C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\Vector2\obj\Debug\Vector2.exe
 C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\Vector2\obj\Debug\Vector2.pdb
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\Vector2\bin\Debug\Vector2.exe
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\Vector2\bin\Debug\Vector2.pdb
+C:\Users\s178022\Documents\Visual Studio 2015\Projects\IntroductionToCSharp\Practice-Csharp\Vector2\obj\Debug\Vector2.csprojResolveAssemblyReference.cache

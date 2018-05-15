@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace Vector2
 {
-    class Vector2
+    public class Vector2
     {
-        private float mX;
-        private float mY;
+        public float mX;
+        public float mY;
 
         public Vector2()
         {

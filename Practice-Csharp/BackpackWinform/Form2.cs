@@ -34,7 +34,7 @@ namespace BackpackWinform
 
             for (int i = 0; i < player.Inventory.Packables.Count; i++)
             {
-                if (player.Inventory.Packables[i].PickedUp == true)
+                if (player.Inventory.Packables[i].PickedUp)
                 {
                     InvSlots[i].ImageLocation = player.Inventory.Packables[i].ImageDirectory;
                 }
